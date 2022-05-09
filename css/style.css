@@ -7,7 +7,7 @@
 00. PRELOADER
 
 01. GENERAL
-			
+		 	
 02. NAV BAR
 	02.1 Width & Color
 		02.1.1 Fixed Width
@@ -223,8 +223,8 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 }
 
 h1, .h1{
-	margin-top: 22px;
-	margin-bottom: 22px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 h2, h3,
@@ -240,7 +240,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:50px;
+	font-size:40px;
 }
 
 h2, .h2{
@@ -316,7 +316,8 @@ img.with-border{
 
 /* Added */
 .title-en{
-	font-family: 'MaruBuriLight', serif;
+	font-family: 'Yantramanav', sans-serif;
+	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 0.3em;
@@ -1687,13 +1688,16 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	display:block;
 	font-family: "fontello";
 	position:absolute;
-	font-size:22px;
+	font-size:18px;
+	/*font-size: 22px*/
 	color:#FFF;
 	content:"\e806";
-	top:-17px;
+	top:-13px;
+	/*top: -17px*/
 	left:0;
 	right:0;
-	margin-left:19px;
+	margin-left:13px;
+	/*margin-left: 19px*/
 }
 
 .banner-text.withlove.dark:before{
@@ -1704,13 +1708,16 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	display:block;
 	font-family: "fontello";
 	position:absolute;
-	font-size:22px;
-	color:#f0394d;
+	font-size:18px;
+	/*font-size: 22px*/
+	color:#Fa7991;
 	content:"\e806";
-	top:-17px;
+	top:-13px;
+	/*top: -17px*/
 	left:0;
 	right:0	;
-	margin-right:19px;
+	margin-right:13px;
+	/*margin-left: 19px*/
 }
 
 
@@ -2918,15 +2925,16 @@ footer .image-divider.fixed-height{
 	font-family: 'Dancing Script', cursive;
 	font-weight: 400; 
 	font-size: 27px; 
-
+	color: #fff9ed;
 }
 
 #banner-date{
 	font-family: 'EB Garamond', sans-serif; 
 	font-weight: 500;
-	letter-spacing:5px; 
+	/*letter-spacing:5px;*/
+	letter-spacing: 3px; 
 	font-size:17px;
-	color: #ffd5d5;
+	color: #fff9ed;
 }
 
 #banner-name{ 
@@ -2941,9 +2949,14 @@ footer .image-divider.fixed-height{
 }
 
 .slide-title h1{
-	font-family: 'Nanum Myeongjo', serif; 
-	margin-top: 10px; 
-	margin-bottom: 15px;
+	font-family: 'MaruBuri', serif; 
+	letter-spacing: 0.15em;
+	color: #fff9ed;
+}
+
+.slide-title h2{
+	font-family: 'MaruBuri', serif; 
+	letter-spacing: 0.15em;
 }
 
 .slide-title h1 small{
@@ -3342,17 +3355,16 @@ hr.line-groom{
 .accordion2 {
 	background-color: #f2e7e7;
 	color: #af4d5d;
+	border-width: 0.5px;
+	border-color: #e4cece;
+	border-style: solid solid dashed solid;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
-	border: none;
 	text-align: left;
 	outline: none;
 	font-size: 20px;
 	transition: 0.4s;
-	border-width: 0.5px;
-	border-color: #e4cece;
-	border-style: solid solid dashed solid;
 	margin-top: 15px;
 }
   
@@ -3361,7 +3373,7 @@ hr.line-groom{
 	content: '\f107';
 	color: #af4d5d;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 22px;
 	float: right;
 	margin-left: 5px;
 }
@@ -4099,7 +4111,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:40px;
+	font-size:35px;
 }
 
 h2, .h2{
@@ -4344,7 +4356,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:35px;
+	font-size:30px;
 }
 
 h2, .h2{
@@ -4399,7 +4411,7 @@ p{
 /* 06.5.6 Save The Date Title */	
 /* ----------------------------------------------*/	
 #invited{
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .banner-text.withlove{
@@ -4906,7 +4918,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:30px;
+	font-size:25px;
 }
 
 h2, .h2{

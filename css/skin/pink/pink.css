@@ -75,11 +75,13 @@ hr.line-divider{
 /* 02. MAIN SLIDER 	 							 */
 /*===============================================*/
 .slide-title #banner-date{
-	color: #ffbcda;
+	/*color: #ffbcda;*/
+	color: #fff9ed;
 }
 
 .slide-title h1 small{
-	color:#ffbcda;
+	/*color: #ffbcda;*/
+	color: #fff;
 }
 
 /*===============================================*/
@@ -145,7 +147,7 @@ a.de-button:hover, input[type=submit]:hover{
 /* ----------------------------------------------*/
 
 .banner-text.withlove:after{
-	color:#Fa7991;
+	color:#ffbcda;
 } 
 
 /*===============================================*/
