@@ -3,11 +3,11 @@
 /*===============================================*/
 
 #preloader{
-	background-color: #f8f5f5;
+	background-color: #f6f1eb;
 }
 
 .heart-animation i{
-	color: #FA7991;
+	color: #F5AB7F;
 }
 
 /*===============================================*/
@@ -18,8 +18,8 @@
 /* 01.1 Background Color						 */
 /* ----------------------------------------------*/
 #greeting{
-	background-color: #f5f7f8;
-	/*background-color: #f9f9f9;*/
+	background-color: #f6f1eb;
+	/*background-color: #f9f9f9;*/	
 }
 
 #couple{
@@ -27,15 +27,15 @@
 }
 
 #parents{
-	background-color: #f5f7f8;
+	background-color: #f6f1eb;
 }
 
 #gallery-section{
-	background-color: #f5f7f8;
+	background-color: #f6f1eb;
 }
 
 #more-events{
-	background-color: #f5f7f8;
+	background-color: #f6f1eb;
 }
 
 #gift-section{
@@ -43,7 +43,7 @@
 }
 
 #where-when{
-	background-color: #f5f7f8;
+	background-color: #f6f1eb;
 }
 /* ----------------------------------------------*/
 /* 01.2 TEXT DECORATION    						 */
@@ -51,8 +51,13 @@
 
 /* 01.2.1 OVERALL                              */
 /* ----------------------------------------------*/
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+	color: #444444;
+}
+
 .title-en{
-	color: #99a8b7;
+	color: #b99f71;
 }
 
 .bride-text{
@@ -63,35 +68,58 @@
 	color: #94A5C5;
 }
 
+#couple .his-her-name h2{
+	color: #444444; 
+}
+
+
 /* 01.2.2 LINE                              */
 /* ----------------------------------------------*/
 /* line in story popup template */
 hr.line-divider{
-	background-color: #dee3e8;
-	color: #dee3e8;
+	background-color: #e6ddcd;
+	color: #e6ddcd;
 }
+
 
 /*===============================================*/
 /* 02. MAIN SLIDER 	 							 */
 /*===============================================*/
-.slide-title #banner-date{
-	color: #bcdaff;
-}
 
 .slide-title h1 small{
 	color: #bcdaff;
+} /* for family invitation */
+
+.slide-title h1{
+	color: #fff9ed;
+}
+
+#invited {
+	color: #fff9ed;
+}
+
+.slide-title #banner-date{
+	color: #fff9ed;
 }
 
 /*===============================================*/
 /* 03. NAV MENU	 	 							 */
 /*===============================================*/
+#nav-bar.bottom-bar.stick-it{
+	/*background-color:#f6f1eb;*/
+	background-color: #fff;
+}
 
 #nav-menu > li a{
-	color: #6a6a6a;
+	color: #b99f71;
 }
 
 #nav-menu > li a:hover{
-	color: #000;
+	color: #666;
+}
+
+#mobile-nav i{
+	color: #b99f71;
 }
 
 /*===============================================*/
@@ -103,10 +131,15 @@ hr.line-divider{
 /* ----------------------------------------------*/
 .css-logo{
 	background-color:transparent;
+	color: #b99f71;
 }
 
 .css-logo-text small{
 	color: #94A5C5; 
+}
+
+.mobile-logo{
+	color: #b99f71;
 }
 
 .mobile-logo-text small{
@@ -125,7 +158,7 @@ hr.line-divider{
 /* 07.2.9 HEART DIVIDER							 */
 /* ----------------------------------------------*/
 .pink-heart{
-	color:#Fa7991 /*slide title color line*/
+	color:#F5AB7F; /*slide title color line*/
 }
 
 
@@ -282,6 +315,18 @@ form .btn-primary.active,
 	background-color:#Fa7991; 
 }
 
+#dont-miss-it-title{
+	color: #fff9ed;
+}
+
+#dday-countdown{
+	color: #fff9ed;
+}
+
+#date-countdown{
+	color: #fff9ed;
+}
+
 /* ----------------------------------------------*/
 /* 14.6 More Events Section              		 */
 /* ----------------------------------------------*/
@@ -348,13 +393,19 @@ hr.line-bride{
 /* 14.8 Where When Section              		 */
 /* ----------------------------------------------*/
 #address-icon{
-	background-color: #bbc6d0;
+	background-color: #cab693;
 }
 
 /* ----------------------------------------------*/
 /* 14.9 FOOTER                           		 */
 /* ----------------------------------------------*/
+#thank-you-kr{
+	color: #fff9ed;
+}
 
+#footer-couple-name{
+	color:#fff9ed;
+}
 
 /*===============================================*/
 /* 15. MEDIA VARIATION							 */
@@ -369,6 +420,6 @@ hr.line-bride{
 /* 03.1 Parent Menu 						     */
 /* ----------------------------------------------*/
 #nav-menu li a:hover{
-	background-color: #f5f7f8;
-	color:#395a8c;
+	background-color: #FCF9F4;
+	color:#333333;
 }

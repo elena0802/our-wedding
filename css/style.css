@@ -214,7 +214,7 @@ h1,h2,h3,h4,h5,h6{
 
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-	color:#333333;
+	color: #444444;
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, 
@@ -223,8 +223,9 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 }
 
 h1, .h1{
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	/*margin-top: 25px*/
 }
 
 h2, h3,
@@ -316,7 +317,8 @@ img.with-border{
 
 /* Added */
 .title-en{
-	font-family: 'Yantramanav', sans-serif;
+	/*font-family: 'Yantramanav', sans-serif;*/
+	font-family: 'Bitter', serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
@@ -440,7 +442,7 @@ img.with-border{
 
 #nav-bar.block-color{
 	/*position:relative; */ 
-	background-color:#FFF;
+	background-color: #fff;
 }
 
 /*.is-sticky #nav-bar.block-color{
@@ -558,7 +560,7 @@ img.with-border{
 }
 
 .transparent.stick-it #nav-menu > li a{
-	color:#666
+	color:#666666;
 }
 
 /* 03.1.2 Additional Class For Nav Center 		 */
@@ -613,7 +615,7 @@ img.with-border{
 /* 03.2.1 Reset Transparent Child Menu Color	 */
 /* ----------------------------------------------*/
 .transparent #nav-menu ul li a{
-	color:#666;
+	color:#666666;
 }
 
 .transparent #nav-menu ul li a:hover{
@@ -650,7 +652,7 @@ img.with-border{
 
 #mobile-nav,
 .transparent.stick-it #mobile-nav{
-	color:#666;
+	color:#666666;
 }
 
 .transparent #mobile-nav{
@@ -725,7 +727,7 @@ img.with-border{
 }*/
 
 #menu-icon a i{
-	color:#666; 
+	color:#666666; 
 	font-size:24px;
 }
 
@@ -762,7 +764,7 @@ img.with-border{
 }
 
 #sticky-menuicon a i{
-	color:#666;
+	color:#666666;
 	font-size:24px;
 }
 
@@ -819,7 +821,7 @@ img.with-border{
 }
 
 #close-button i{
-	color:#666;
+	color:#666666;
 	font-size:24px;
 }
 
@@ -855,7 +857,7 @@ img.with-border{
 #side-nav-menu > li a{
 	display:block;
 	padding:14px 8px;
-	color:#666;
+	color:#666666;
 	text-decoration:none;
 		border-bottom:solid thin #f4f2f2;
 }
@@ -1514,8 +1516,7 @@ hr.line-divider{
 	width:30px; 
 	height:8px;
 	display:inline-block;
-	border-top:solid 1px #FFF;
-	opacity: 0.7;
+	border-top:solid 2px rgba(255, 255, 255, 0.3);
 }
 
 .grey-line{
@@ -1671,7 +1672,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .banner-text.dark *{
-	color:#333333;
+	color:#444444;
 }
 
 .banner-text.withlove{
@@ -2687,7 +2688,7 @@ form .has-error .btn-primary{
 .weekdays li {
 	display: inline-block;
 	width: 13.6%;
-	color: #666;
+	color: #666666;
 	text-align: center;
 	font-size: 20px;
 	font-family: 'MaruBuri';
@@ -2816,7 +2817,7 @@ footer .image-divider.fixed-height{
 	font-size: 23px;
 	color: #fff;
 	letter-spacing: 2px;
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
 #footer-couple-name{
@@ -3306,6 +3307,12 @@ h2#dont-miss-it-title{
 	font-weight: 400;
 }
 
+/* ICON IMAGE */
+#gift-section img{
+	width: 60px; 
+	height: auto;
+}
+
 /* Gift for Groom */
 .accordion1 {
 	background-color: #e7edf2;
@@ -3483,7 +3490,7 @@ hr.line-bride{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background: #333333;
+	background: #444444;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -3635,7 +3642,7 @@ button.mfp-close, button.mfp-arrow {
 	text-align: left;
 	font-size:18px;
 	font-family: 'EB Garamond', serif;
-	font-weight: 700;
+	font-weight: 500;
 	padding: 16px 0px;
 }
 
@@ -3701,13 +3708,12 @@ button.mfp-close, button.mfp-arrow {
 #nav-menu li a{
 	display:block;
 	width:100%;
-	color:#666;
+	color:#666666;
 	border-bottom:solid thin #f4f2f2;
 	position: relative;
 }
 
 #nav-menu .first-child a{ /* Added */
-	color:#666;
 	border-top:solid thin #f4f2f2;
 	position: relative;
 }
@@ -3801,7 +3807,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 .transparent.stick-it #mobile-nav{
-	color:#666;	
+	color:#666666;	
 }
 
 
@@ -4086,6 +4092,11 @@ button.mfp-close, button.mfp-arrow {
     padding-left: 10px; !important;
 }
 
+/* ICON IMAGE */
+#gift-section img{
+	width: 40px; 
+	height: auto;
+}
     
 /*===============================================*/
 /* 11. FORM										 */
@@ -4098,8 +4109,13 @@ form .btn{
 /*===============================================*/
 /* Text Size									 */
 /*===============================================*/
-h1, h2, h3,
-.h1, .h2, .h3{
+h1, .h1{
+	margin-top: 8px;
+	margin-bottom: 23px;
+}
+
+h2, h3,
+.h2, .h3{
 	 margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -4343,8 +4359,13 @@ p{
 	line-height:24px;
 }*/
 
-h1, h2, h3,
-.h1, .h2, .h3{
+h1, .h1{
+	margin-top: 6px;
+	margin-bottom: 20px;
+}
+
+h2, h3,
+.h2, .h3{
 	 margin-top: 17px;
   margin-bottom: 17px;
 }
@@ -4471,6 +4492,8 @@ p{
 
 .mobile-logo{
 	display: block;
+	font-size: 16px;
+	padding: 18px 0px;
 }
 
 #mobile-nav{
@@ -4905,8 +4928,13 @@ h2#dont-miss-it-title{
 /*===============================================*/
 /* 01. GENERAL			 						 */
 /*===============================================*/
-h1, h2, h3,
-.h1, .h2, .h3{
+h1, .h1{
+	margin-top: 4px;
+	margin-bottom: 18px;
+}
+
+h2, h3,
+.h2, .h3{
 	 margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -4988,6 +5016,20 @@ h2#dont-miss-it-title{
 #banner-name{
 	font-size: 12px;
 }
+
+.mobile-logo{
+	display: none;
+}
+
+.css-logo{
+	display: block;
+	padding: 18px 0px;
+}
+
+.css-logo-text{
+	font-size: 18px;
+}
+
 
 /* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
