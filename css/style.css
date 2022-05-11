@@ -1736,8 +1736,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 #popup-template{
 	width:100%;
 	margin:0px auto; 
-	background-color:#fff;
-	background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+	background-color: #f8f7f5;
 }
 
 #popup-template #main-image{
@@ -1757,7 +1756,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content{
-	padding: 50px 120px;
+	padding: 50px 0px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -1768,6 +1767,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 #popup-template #the-content img{
 	width:100%;
 	margin:10px 0
+}
+
+#popup-template .story-qna h3{
+	font-size: 24px;
 }
 
 /*-----------------------------------------------*/
@@ -2632,22 +2635,21 @@ form .has-error .btn-primary{
 	margin-bottom: 40px;
 }
 
-#popup-template .section-title h2{
-	font-size: 28px;
-}
 
 .story-qna{
 	margin-bottom: 30px;
+}
+
+.qna-title{
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .story-qna p{
 	margin-bottom: 15px;
 	color: #6a6a6a;
 	font-family: 'MaruBuri', serif;
-}
-
-.qna-title{
-	font-family: 'MaruBuriSemiBold', serif;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .test{
@@ -4248,11 +4250,11 @@ p{
 /* ----------------------------------------------*/	
 
 #popup-template #the-content{
-	padding:35px 60px;
+	padding:35px 20px;
 }
 
-#popup-template .section-title h2{
-	font-size: 24px;
+#popup-template .story-qna h3{
+	font-size: 20px;
 }
 
 /* ----------------------------------------------*/
@@ -4509,17 +4511,21 @@ p{
 }
 
 #popup-template #the-content{
-	padding:30px 15px;
+	padding:30px 0px;
+}
+
+#popup-template p{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #popup-template .section-title{
 	margin-bottom: 30px;
 }
 
-#popup-template .section-title h2{
-	font-size: 20px;
+#popup-template .story-qna h3{
+	font-size: 18px;
 }
-
     
 /* ----------------------------------------------*/
 /* 09.1 Image & Space								 */
@@ -5125,8 +5131,18 @@ h2#dont-miss-it-title{
     font-size: 16px;
 }
 
-#popup-template .section-title h2{
+#popup-template .story-qna h3{
 	font-size: 15px;
+}
+
+#popup-template #the-content{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#popup-template p{
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* 14.4 Where When Section						 */
