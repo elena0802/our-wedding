@@ -7,7 +7,11 @@
 }
 
 .heart-animation i{
-	color: #F5AB7F;
+	color: #f17e50;
+}
+
+.heart-animation-reverse i{
+	color:#728c59;
 }
 
 /*===============================================*/
@@ -335,7 +339,7 @@ form .btn-primary.active,
 /* ----------------------------------------------*/
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #FA7991;
+	background: #f17e50;
 }
 
 /* ----------------------------------------------*/
