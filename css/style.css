@@ -326,7 +326,7 @@ img.with-border{
 }
 
 .title-kr{
-	font-family: 'MaruBuri', serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .emphasize{
@@ -2817,7 +2817,7 @@ footer .image-divider.fixed-height{
 	font-size: 23px;
 	color: #fff;
 	letter-spacing: 2px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 #footer-couple-name{
@@ -4858,7 +4858,7 @@ h2#dont-miss-it-title{
 }
 
 .accountinfo{
-	padding: 20px 15px;
+	padding: 20px 20px;
 	font-size: 15px;
 }
 
@@ -4891,7 +4891,7 @@ h2#dont-miss-it-title{
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
 #thank-you-kr{
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #footer-couple-name{
