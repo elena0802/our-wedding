@@ -57,8 +57,7 @@
 /* ----------------------------------------------*/
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-	color: #74624e;
-	/* color: #444444 */
+	color: #444444;
 }
 
 .title-en{
@@ -199,8 +198,8 @@ a.de-button:hover, input[type=submit]:hover{
 
 a:hover .de-icon.circle.outline.light{
 	background-color:transparent;
-	color:#Fa7991;
-	border:1px solid #Fa7991;
+	color:#ffd390;
+	border:1px solid #ffd390;
 }
 
 /* 08.2.1 Default								  */
