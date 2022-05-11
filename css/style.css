@@ -1757,7 +1757,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content{
-	padding:50px 75px;
+	padding: 50px 120px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -4248,7 +4248,7 @@ p{
 /* ----------------------------------------------*/	
 
 #popup-template #the-content{
-	padding:35px 30px;
+	padding:35px 60px;
 }
 
 #popup-template .section-title h2{
@@ -4509,7 +4509,7 @@ p{
 }
 
 #popup-template #the-content{
-	padding:30px 20px;
+	padding:30px 15px;
 }
 
 #popup-template .section-title{
