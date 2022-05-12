@@ -1734,8 +1734,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
 #popup-template{
-	width:100%;
-	margin:0px auto; 
+	width:900px;
+	margin:30px auto; 
 	background-color: #f8f7f5;
 }
 
@@ -1756,7 +1756,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content{
-	padding: 50px 0px;
+	padding:35px 75px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -3910,7 +3910,9 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-
+#popup-template{
+	width:90%;
+}
     
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
@@ -4254,9 +4256,9 @@ p{
 /* POPUP TEMPLATE						 */
 /* ----------------------------------------------*/	
 
-#popup-template #the-content{
+/*#popup-template #the-content{
 	padding:35px 20px;
-}
+}*/
 
 #popup-template .story-qna h3{
 	font-size: 20px;
@@ -4511,18 +4513,16 @@ p{
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template{
-	width:100%;
-}
 
 #popup-template #the-content{
-	padding:30px 0px;
+	padding-right:30px;
+	padding-left:30px;
 }
 
-#popup-template p{
+/*#popup-template p{
 	padding-left: 10px;
 	padding-right: 10px;
-}
+}*/
 
 #popup-template .section-title{
 	margin-bottom: 30px;
@@ -5140,15 +5140,15 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 }
 
-#popup-template #the-content{
+/*#popup-template #the-content{
 	padding-right: 0;
 	padding-left: 0;
-}
+}*/
 
-#popup-template p{
+/*#popup-template p{
 	padding-left: 5px;
 	padding-right: 5px;
-}
+}*/
 
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
