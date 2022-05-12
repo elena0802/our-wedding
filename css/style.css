@@ -2022,6 +2022,11 @@ a:hover .de-icon.effect3{
 	margin: 20px;
 }
 
+#parents .photo-item.frame-border {
+	border-radius: 10px; 
+	margin: 5px;
+}
+
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
@@ -3009,7 +3014,7 @@ footer .image-divider.fixed-height{
 	font-size:22px; 
 	margin-top:50px; 
 	margin-bottom:30px;
-	font-family: 'MaruBuriLight', serif;
+	font-family: 'MaruBuri', serif;
 }
 
 .parents-name h3{
@@ -4231,7 +4236,7 @@ p{
 	font-size:16px; 
 	margin-top:40px; 
 	margin-bottom:20px;
-	font-family: 'MaruBuriExtraLight', serif;
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
@@ -4610,7 +4615,7 @@ p{
 	font-size:13px; 
 	margin-top:30px; 
 	margin-bottom:15px;
-	font-family: 'MaruBuriExtraLight', serif;
+	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
