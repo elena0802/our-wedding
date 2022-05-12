@@ -1737,7 +1737,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	width:900px;
 	margin:30px auto; 
 	background-color: #f8f7f5;
-	overflow: scroll;
+	overflow: auto;
+	height: 600px;
 }
 
 #popup-template #main-image{
