@@ -124,8 +124,8 @@ button::-moz-focus-inner {
   height: 44px;
   line-height: 44px;
   position: absolute;
-  right: 30px;
-  top: 25px;
+  right: 0px;
+  top: 0px;
   text-decoration: none;
   text-align: center;
   opacity: 0.75; 
@@ -133,8 +133,7 @@ button::-moz-focus-inner {
   padding: 0 0 18px 10px;
   color: white;
   font-style: normal;
-  font-size: 35px;
-  /* font-size: 28px; Original */
+  font-size: 28px;
   font-family: 'Noto Sans KR', sans-serif; }
   .mfp-close:hover, .mfp-close:focus {
     opacity: 1;
