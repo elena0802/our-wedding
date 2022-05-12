@@ -1737,6 +1737,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	width:900px;
 	margin:30px auto; 
 	background-color: #f8f7f5;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 #popup-template #main-image{
@@ -1750,10 +1752,13 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	bottom:0; 
 	color:#FFF; 
 	text-align:center; 
-	padding:0 50px;
+	/*padding:0 50px;*/
+	padding: 0 10px;
 	margin:0 auto;
 	width:100%;
 }
+
+
 
 #popup-template #the-content{
 	padding:35px 75px;
@@ -1766,7 +1771,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 #popup-template #the-content img{
 	width:100%;
-	margin:10px 0
+	margin-bottom: 20px;
 }
 
 #popup-template .story-qna h3{
@@ -4529,7 +4534,7 @@ p{
 }
 
 #popup-template .story-qna h3{
-	font-size: 18px;
+	font-size: 16px;
 }
     
 /* ----------------------------------------------*/
