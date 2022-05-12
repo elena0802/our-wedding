@@ -1742,7 +1742,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #main-image{
-	height:485px;
+	height:400px; 
+	/* height: 485px*/
 	width:100%;
 	position:relative;
 }
@@ -3026,7 +3027,7 @@ footer .image-divider.fixed-height{
 	font-size:30px; 
 	margin-top:20px; 
 	margin-bottom:60px;
-	font-family: 'MaruBuri', serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 /* ----------------------------------------------*/
@@ -4244,14 +4245,12 @@ p{
 	font-size:16px; 
 	margin-top:40px; 
 	margin-bottom:20px;
-	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:20px; 
 	margin-top:15px; 
 	margin-bottom:50px;
-	
 }
 
 .parents-name .pink-heart{
@@ -4537,6 +4536,12 @@ p{
 #popup-template .story-qna h3{
 	font-size: 16px;
 }
+
+#popup-template #main-image{
+	height: 300px;
+	background-position: 50% 90%;
+	
+}
     
 /* ----------------------------------------------*/
 /* 09.1 Image & Space								 */
@@ -4621,14 +4626,12 @@ p{
 	font-size:13px; 
 	margin-top:30px; 
 	margin-bottom:15px;
-	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:17px; 
 	margin-top:15px; 
 	margin-bottom:30px;
-	
 }
 
 .parents-name .pink-heart{
@@ -5107,14 +5110,12 @@ h2#dont-miss-it-title{
 	font-size:11px; 
 	margin-top:20px; 
 	margin-bottom:10px;
-	font-family: 'MaruBuriLight', serif;
 }
 
 .parents-name h3{
 	font-size:13px; 
 	margin-top:12px; 
 	margin-bottom:30px;
-	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .parents-name .pink-heart{
