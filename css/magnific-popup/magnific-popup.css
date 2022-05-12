@@ -138,11 +138,11 @@ button::-moz-focus-inner {
   .mfp-close:hover, .mfp-close:focus {
     opacity: 1;
     filter: alpha(opacity=100); }
-  .mfp-close:active {
-    top: 1px; }
+  /*.mfp-close:active {
+    top: 1px; }*/
 
 .mfp-close-btn-in .mfp-close {
-  color: #333333; }
+  color: #fff; }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
   color: white;
@@ -326,8 +326,8 @@ img.mfp-img {
     right: 5px;
     top: 3px; }
   .mfp-img-mobile .mfp-close {
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: 0px;
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -369,24 +369,23 @@ img.mfp-img {
 
 @media screen and (max-width: 767px) {
   .mfp-close{
-  font-size: 28px;
-  right: 15px;
-  top: 15px;
+  right: 35px;
+  top: 35px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .mfp-close{
     font-size: 25px;
-    right: 12px;
-    top: 12px;
+    right: 15px;
+    top: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .mfp-close{
     font-size: 20px;
-    right: 5px;
-    top: 5px;
+    right: 10px;
+    top: 20px;
   }
 }

@@ -1738,7 +1738,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	margin:30px auto; 
 	background-color: #f8f7f5;
 	overflow: auto;
-	height: 600px;
+	height: 700px;
 }
 
 #popup-template #main-image{
@@ -3917,6 +3917,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 #popup-template{
 	width:90%;
+	height: 600px;
 }
     
 /* ----------------------------------------------*/
