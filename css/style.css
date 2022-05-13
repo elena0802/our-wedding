@@ -206,14 +206,18 @@
 body{
     font-family: 'MaruBuri', serif;
 	font-size:15px;
-	overflow-y: scroll;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+	scrollbar-width: none !important;
+	-ms-overflow-style: none !important;
 }
 
-.body::-webkit-scrollbar{
-	display: none;
+body::-webkit-scrollbar{
+	display: none !important;
+	width: 0;
+	height: 0;
+	background: transparent !important;
+	-webkit-appearance: none !important;
 }
+
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'MaruBuri', serif;
