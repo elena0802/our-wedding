@@ -2029,7 +2029,7 @@ a:hover .de-icon.effect3{
 }
 
 #parents .photo-item.frame-border {
-	border-radius: 10px; 
+	border-radius: 50%; 
 	margin: 5px;
 }
 
@@ -2584,13 +2584,13 @@ form .has-error .btn-primary{
 }
 
 #parents-1{
-	padding-left: 15px;
-	padding-right: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 #parents-2{
-	padding-left: 5px;
-	padding-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 
@@ -3001,7 +3001,7 @@ footer .image-divider.fixed-height{
 .his-her-name .heart-wrapper{
 	position:absolute; 
 	right:-50px; 
-	top:0;
+	top:0px;
 }
 
 .his-her-name .custom-heart{
@@ -4258,6 +4258,16 @@ p{
 	font-size: 15px;
 }
 
+#parents-1{
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+#parents-2{
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
 /* ----------------------------------------------*/
 /* POPUP TEMPLATE						 */
 /* ----------------------------------------------*/	
@@ -4298,6 +4308,10 @@ p{
 
 #our-story .title-excerpt h3{
 	font-family: 'MaruBuriSemiBold', serif;
+}
+
+.qna-title{
+	font-size: 20px;
 }
 
 /* ----------------------------------------------*/
@@ -4521,8 +4535,8 @@ p{
 /*-----------------------------------------------*/
 
 #popup-template #the-content{
-	padding-right:30px;
-	padding-left:30px;
+	padding-right:25px;
+	padding-left:25px;
 }
 
 /*#popup-template p{
@@ -4713,6 +4727,10 @@ p{
 /* ----------------------------------------------*/
 #our-story{
 	padding: 60px 5px 40px 5px;
+}
+
+.qna-title{
+	font-size: 18px;
 }
 
 #end-of-story{
@@ -5123,6 +5141,16 @@ h2#dont-miss-it-title{
 	font-size: 10px;
 }
 
+#parents-1{
+	padding-left: 10px;
+	padding-right: 3px;
+}
+
+#parents-2{
+	padding-left: 3px;
+	padding-right: 10px;
+}
+
 /* ----------------------------------------------*/
 /* CALENDAR						 */
 /* ----------------------------------------------*/
@@ -5136,7 +5164,7 @@ h2#dont-miss-it-title{
 /* 14.3 Our Story Section & POPUP TEMPLATE						 */
 /* ----------------------------------------------*/
 
-#our-story h3{
+.qna-title{
 	font-size: 14px;
 }
 
@@ -5148,10 +5176,10 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 }
 
-/*#popup-template #the-content{
-	padding-right: 0;
-	padding-left: 0;
-}*/
+#popup-template #the-content{
+	padding-right: 20px;
+	padding-left: 20px;
+}
 
 /*#popup-template p{
 	padding-left: 5px;
