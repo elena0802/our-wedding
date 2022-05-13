@@ -206,6 +206,7 @@
 body{
     font-family: 'MaruBuri', serif;
 	font-size:15px;
+	overflow: auto;
 }
 
 h1,h2,h3,h4,h5,h6{
