@@ -3035,6 +3035,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 #our-story{
 	padding: 140px 0;
+	
 }
 
 .story-row.row {
@@ -3918,7 +3919,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 #popup-template{
 	width:90%;
-	height: 600px;
+	height: 550px;
 }
     
 /* ----------------------------------------------*/
