@@ -3722,7 +3722,7 @@ button.mfp-close, button.mfp-arrow {
 #nav-menu li a{
 	display:block;
 	width:100%;
-	color:#666666;
+	color:#666;
 	border-bottom:solid thin #f4f2f2;
 	position: relative;
 }
