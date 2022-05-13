@@ -2623,6 +2623,7 @@ form .has-error .btn-primary{
 }
 
 .interview-btn{
+	display: none; /* couple intervie button */
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
@@ -4236,14 +4237,15 @@ p{
 }
 
 #couple {
-	padding: 80px 30px 100px 30px;
+	padding: 80px 30px 60px 30px;
 }
 
 .interview-btn{
 	font-size: 16px;
 	width: 400px;
 	padding: 25px 30px;
-	
+	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 #gallery-section {
@@ -4623,7 +4625,7 @@ hr.line-divider{
 }
 
 #couple{
-	padding:60px 5px 80px 5px;
+	padding:60px 5px 40px 5px;
 }
 
 #parents{
