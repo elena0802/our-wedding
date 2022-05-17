@@ -2623,7 +2623,7 @@ form .has-error .btn-primary{
 }
 
 .interview-btn{
-	display: none; /* couple intervie button */
+	display: none; /* couple intervie button inactivate*/
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
