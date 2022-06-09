@@ -1113,10 +1113,12 @@ img.with-border{
 .slide-title.align-middle{
 	vertical-align: middle;
 }
+
 .slide-title.align-top{
 	vertical-align: top;
-	padding-top:50px;
+	padding-top:70px;
 }
+
 .slide-title.align-bottom{
 	vertical-align: bottom;
 	padding-bottom:100px;
@@ -4490,6 +4492,7 @@ hr.line-divider{
 
 /* 06.5.6 Save The Date Title */	
 /* ----------------------------------------------*/	
+
 #invited{
 	font-size: 18px;
 }
