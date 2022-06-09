@@ -351,6 +351,11 @@ img.with-border{
 	line-height: 1.9em;
 }
 
+#couple .description{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 #more-events p{
 	text-align: justify; 
 	text-justify: inter-word;
@@ -2035,12 +2040,12 @@ a:hover .de-icon.effect3{
 
 #couple .photo-item.frame-border {
 	background-color:transparent;
-	border-radius: 50%; 
+	border-radius: 10px; 
 	margin: 20px;
 }
 
 #parents .photo-item.frame-border {
-	border-radius: 50%; 
+	border-radius: 10px; 
 	margin: 5px;
 }
 
