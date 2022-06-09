@@ -2046,6 +2046,10 @@ a:hover .de-icon.effect3{
 	margin: 5px;
 }
 
+#popup-template .photo-item.frame-border{
+	border-radius: 10px; 
+}
+
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
@@ -2617,7 +2621,7 @@ form .has-error .btn-primary{
 }
 
 .interview-btn{
-	display: none; /* couple intervie button inactivate*/
+	/*display: none;  couple interview button inactivate*/
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
@@ -3929,7 +3933,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 #popup-template{
 	width:90%;
-	height: 550px;
+	height: 650px;
 }
     
 /* ----------------------------------------------*/
