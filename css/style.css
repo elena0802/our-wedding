@@ -2045,7 +2045,7 @@ a:hover .de-icon.effect3{
 }
 
 #parents .photo-item.frame-border {
-	border-radius: 10px; 
+	border-radius: 5px; 
 	margin: 5px;
 }
 
@@ -2842,57 +2842,61 @@ footer .image-divider.fixed-height{
 	height:550px;
 }
 
+#thank-wrapper{
+	padding-top: 50px;
+}
+
 #thank-you-kr{
 	font-family: 'MaruBuriExtraLight', serif;
-	font-size: 23px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 2px;
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #footer-couple-name{
 	font-family: 'MaruBuriExtraLight', serif; 
-	font-size:18px; 
+	font-size:15px; 
 	color:#FFF; 
 	letter-spacing:3px; 
 }
 
-#kakao-link{
+#link-outer{
 	text-align: center;
-	margin-top: 150px;
+	padding-top: 130px;	
 }
 
-#kakao-link-btn{
+.link-wrapper{
+	margin-bottom: 20px;
+}
+
+a.link-btn{
 	color: #FFF;
 	font-size: 15px;
 	font-family: 'MaruBuriExtraLight', serif;
 	text-decoration: none;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 70px;
-	padding: 25px 40px;
+	cursor: pointer;
+	padding: 6px;
+	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	/*border-radius: 70px;*/
+	/*padding: 25px 40px;*/
 }
 
-#thank-you{
-	text-align:center; 
-	color:#FFF; 
-	font-family: 'Dancing Script', cursive;
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
-	padding-right:30px;
-	margin-top:40px;
-	margin-bottom:25px;
+.copyright{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	color:rgba(255, 255, 255, 0.4);
+	margin-top: 30px;
 }
 
-#thank{
-	font-size:55px; 
-	line-height:45px;
-}
-
-#you{
-	font-size:55px; 
-	line-height:45px;
+#company{
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 1px;
+	text-decoration: none;
 }
 
 /*===============================================*/
@@ -4956,34 +4960,21 @@ h2#dont-miss-it-title{
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
 #thank-you-kr{
-	font-size: 16px;
+	font-size: 15px;
+	margin-bottom: 8px;
 }
 
 #footer-couple-name{
-	font-size: 14px;
-}
-
-#kakao-link-btn{
 	font-size: 13px;
-	padding: 20px 30px;
 }
 
-#kakao-link-btn img{
-	width: 17px;
-	height: auto;
-	margin-right: 3px;
+a.link-btn{
+	font-size: 13px;
 }
 
-#thank{
-	font-size:45px; 
-	line-height:35px
+.copyright{
+	font-size: 10px;
 }
-
-#you{
-	font-size:45px; 
-	line-height:35px;
-}
-
 
 
 }
@@ -5243,40 +5234,38 @@ footer .image-divider.fixed-height{
 	 height:400px;
 }
 
+#thank-wrapper{
+	padding-top: 40px;
+}
+
 #thank-you-kr{
-	font-size: 13px;
+	font-size: 12px;
 	letter-spacing: 1px;
 }
 
-#kakao-link-btn{
+#footer-couple-name{
+	font-size: 11px;
+}
+
+#link-outer{
+	padding-top: 80px;
+}
+
+.link-wrapper{
+	margin-bottom: 15px;
+}
+
+a.link-btn{
 	font-size: 11px;
 	font-family: 'MaruBuriLight', serif;
 }
 
-#thank-you{
-	text-align:center; 
-	color:#FFF; 
-	font-family: 'Dancing Script', cursive;
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
-	padding-right:30px;
-	margin-top:40px;
-	margin-bottom:25px;
-}
-
-#thank{
-	font-size:40px; 
-	line-height:33px;
-}
-
-#you{
-	font-size:40px; 
-	line-height:33px;
-}
-
 #footer-couple-name{
 	font-size:11px; 
+}
+
+.copyright{
+	font-size: 8px;
 }
 
 /* ----------------------------------------------*/
