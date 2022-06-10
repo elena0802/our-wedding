@@ -2622,7 +2622,7 @@ form .has-error .btn-primary{
 }
 
 .interview-btn{
-	/*display: none;  couple interview button inactivate*/
+	display: none;  /*couple interview button inactivate*/
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
