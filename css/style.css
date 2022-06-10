@@ -1775,7 +1775,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 
 #popup-template #the-content{
-	padding:35px 75px;
+	padding:35px 70px;
 	margin-bottom: 10px;
 }
 
@@ -3933,7 +3933,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 #popup-template{
 	width:90%;
-	height: 650px;
+	height: 600px;
 }
     
 /* ----------------------------------------------*/
@@ -4274,9 +4274,9 @@ p{
 /* POPUP TEMPLATE						 */
 /* ----------------------------------------------*/	
 
-/*#popup-template #the-content{
-	padding:35px 20px;
-}*/
+#popup-template #the-content{
+	padding:35px 30px;
+}
 
 #popup-template .story-qna h3{
 	font-size: 20px;
@@ -4546,8 +4546,8 @@ hr.line-divider{
 /*-----------------------------------------------*/
 
 #popup-template #the-content{
-	padding-right:25px;
-	padding-left:25px;
+	padding-right:20px;
+	padding-left:20px;
 }
 
 /*#popup-template p{
