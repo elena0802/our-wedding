@@ -208,6 +208,7 @@ body{
 	font-size:15px;
 	scrollbar-width: none !important;
 	-ms-overflow-style: none !important;
+	overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -3933,7 +3934,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 #popup-template{
 	width:90%;
-	height: 600px;
+	height: 550px;
 }
     
 /* ----------------------------------------------*/
