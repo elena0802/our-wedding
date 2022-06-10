@@ -1530,14 +1530,14 @@ hr.line-divider{
 	width:30px; 
 	height:8px;
 	display:inline-block;
-	border-top:solid 2px rgba(255, 255, 255, 0.5);
+	border-top:solid 0.5px rgba(255, 255, 255, 0.5);
 }
 
 .grey-line{
 	width:30px; 
 	height:8px;
 	display:inline-block;
-	border-top:solid 2px #e1dddd;
+	border-top:solid 1px #e1dddd;
 }
 
 /*.left-line{
