@@ -472,7 +472,7 @@ $(document).ready(function() {
 		var audioElm = document.getElementById('audioID');	
 		
 		if (audioElm != null){
-			audioElm.muted = true;
+			audioElm.muted = false;
 		 
 			var mute_icon = $("#mute-audio").data("mute-icon");
 			var unmute_icon = $("#mute-audio").data("unmute-icon");		
