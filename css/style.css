@@ -1,183 +1,5 @@
 @charset "utf-8";
 
-
-/*---------------------- 
-	Stylesheet Guide
-------------------------
-00. PRELOADER
-
-01. GENERAL
-		 	
-02. NAV BAR
-	02.1 Width & Color
-		02.1.1 Fixed Width
-		02.1.2 Fluid Width
-		02.1.3 Top Bar
-		02.1.4 Bottom Bar
-		02.1.5 Transparent & Block Color
-	02.2 Logo & Nav Position
-		02.2.1 Nav Center
-		02.2.2 Nav Left
-		02.2.3 Nav Right
-		
-03. NAV MENU
-	03.1 Parent Menu
-		03.1.1 Transparent
-		03.1.2 Additional Class For Nav Center
-	03.2 Child Menu
-		03.2.1 Reset Transparent Child Menu Color
-		03.2.2 Child-Parent Arrow
-		03.2.3 More Child
-	03.3 Mobile Nav
-	
-04. SIDE NAV BAR
-	04.1 Menuicon Bar Width & Position
-		04.1.1 Fixed Width
-		04.1.2 Fluid Width
-		04.1.3 Menuicon-Left
-		04.1.4 Menuicon-Right
-	04.2 Menu Icon
-		04.2.1 Standard Menu Icon
-		04.2.2 Sticky Menu Icon
-	04.3 Sidebar Menu
-		04.3.1 Sidebar
-		04.3.2 Sidebar Header
-		04.3.3 Parent Menu		
-		04.3.4 Child Menu
-		04.3.5 Child-Parent Arrow Icon
-		04.3.6 More Child Menu
-		
-05. LOGO
-	05.1 CSS Logo
-	05.2 IMG Logo
-
-06. MAIN-SLIDER
-	06.1 Main Slider Height
-	06.2 Main Slider Flexslider
-		06.2.1 Main Slider Flexslider Control Nav & Paging
-	06.3 Main Slider Slide-Image
-	06.4 Main Slider Slide-Video
-	06.5 Main Slider Title
-		06.5.1 Outter Wrapper 
-		06.5.2 Inner Wrapper
-		06.5.3 Title Wrapper
-		06.5.4 Title Alignment
-		06.5.6 Save The Date Title
-	06.6 Each Slide Overlay
-	06.7 Each Slide Caption
-	06.8 Hack Flexslider Fade for Firefox & IE11
-	06.9 Loop Animation
-		06.9.1 Zoom
-		06.9.2 Left-Right
-	06.10 Video Audio Control
-		
-07. PAGE
-	07.1 Page Layout
-		07.1.1 Page Without Slider
-		07.1.2 Page With Slider
-		07.1.3 Page With Banner
-		07.1.4 Page With Full Gallery
-		07.1.5 Page With Outside Bottom Bar 
-	07.2 Page Element
-		07.2.1 Page Title Wrapper
-		07.2.2 Section Title Wrapper
-		07.2.3 Icon Title Wrapper
-		07.2.4 Title-Excerpt White Box
-		07.2.5 Blurb Wrapper		
-		07.2.6 Align Middle Wrapper	
-		07.2.7 Image & Video Divider
-		07.2.8 Space & Line Divider
-		07.2.9 Heart Divider
-		07.2.10 Button
-		07.2.11 Banner Text
-		07.2.12 White Box Content Wrapper
-		07.2.13 Popup Template
-		07.2.14 Autocrop Image
-
-08. ICON
-	08.1 Size
-	08.2 Shape
-		08.2.1 Default	
-		08.2.2 Circle, Rounded, Square	
-	08.3 Effect Zoom 
-	08.4 Effect Rotate
-	08.5 Effect Square/Rounded To Circle		
-			
-09. PHOTO ITEM
-	09.1 Image
-	09.2 Layer
-		09.2.1 Layer : Second Image
-		09.2.2 Layer : Black Overlay 
-		09.2.3 Layer : Photo Caption
-		09.2.4 Layer : Icon / Button Link  
-	09.3 on Hover Animation
-		09.3.1 on Hover Animation Duration
-		09.3.2 on Hover Animation Delay	
-		09.3.3 on Hover Zoom In	
-		09.3.4 on Hover Zoom In and Rotate
-		09.3.5 on Hover Fade Out		
-
-10. MASONRY GALLERY
-	10.1 Three Column No Gutter
-	10.2 Three Column With Gutter
-	10.3 Four Column No Gutter
-	10.4 Four Column With Gutter
-	10.5 Five Column No Gutter
-	10.6 Five Column With Gutter	
-	
-11. FORM
-	11.1 Form Group
-	11.2 Form Control
-	11.3 Input Group
-	11.4 Label
-	11.5 Button
-	11.6 Checkbox and Radio(Custom)
-	11.7 Select Option
-	11.8 Message
-	11.9 Validation	
-		
-12. HOME PAGE
-	12.1 Couple Section
-	12.2 Location & Countdown Section
-	12.3 The Wedding Section
-	12.4 RSVP Section
-	12.5 Footer Section
-	
-13. OTHER PAGE
-	13.1 LOCATION PAGE
-	13.2 RSVP-2 PAGE
-	13.3 BRIDESMAID PAGE
-	13.4 GROOMSMEN PAGE
-	13.5 BLOG PAGE
-
-14. ONEPAGE SECTION
-	14.1 Slider Section		
-	14.2 Couple Section	
-	14.3 Our Story Section
-	14.4 Where When Section
-	14.5 Gallery Section
-	14.6 Don't Miss It / Countdown Section
-	14.7 More Events Section
-	14.8 Groomsmen Section	
-	14.9 Bridesmaid Section
-	14.10 Gift Section	
-	14.11 RSVP Section
-
-15. PLUGIN CUSTOM
-	15.1 Owl Carousel
-	15.2 Magnific Popup
-
-16. MEDIA SCREEN
-	- @media screen and (max-width: 1199px)
-	- @media screen and (max-width: 1024px)
-	- @media screen and (max-width: 1024px) and (orientation : landscape)
-	- @media screen and (max-width: 767px) and (orientation : landscape)
-	- @media screen and (max-width: 767px)
-	- @media screen and (max-width: 480px)
-	- @media screen and (max-width: 320px)
-
-*/
-
 @font-face {
     font-family: 'Arita-buri-SemiBold', serif;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
@@ -185,23 +7,8 @@
     font-style: normal;
 }
 
-@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-
-.nanummyeongjo * {
- font-family: 'Nanum Myeongjo', serif;
-}
-
 /*===============================================*/
-/* 00. PRELOADER		 						 */
-/*===============================================*/
-/* See: */
-/* - preloader.css */
-/* - preloader-couple-name.css */
-/* - preloader-default.css */
-/* - pace/pace-theme-minimal.tmpl.css*/
-
-/*===============================================*/
-/* 01. GENERAL			 						 */
+/* GENERAL			 						     */
 /*===============================================*/
 body{
     font-family: 'MaruBuri', serif;
@@ -283,7 +90,6 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-/*	font-family: 'Arvo', serif;	*/
     font-family: 'MaruBuri', serif;
 	font-size:16px;
 	line-height:28px;
@@ -329,7 +135,6 @@ img.with-border{
 
 /* Added */
 .title-en{
-	/*font-family: 'Yantramanav', sans-serif;*/
 	font-family: 'Bitter', serif;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -362,7 +167,7 @@ img.with-border{
 }
 
 /*===============================================*/
-/* 02. NAV BAR  	 							 */
+/* NAV BAR  	 							     */
 /*===============================================*/
 #nav-header{
 	z-index:1000; 
@@ -377,21 +182,9 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 02.1 Width & Color 							 */
+/* Width & Color 							     */
 /* ----------------------------------------------*/
 
-/* 02.1.1 Fixed-width 							 */
-/* ----------------------------------------------*/
-#nav-bar.fixed-width #nav-wrapper{
-	position:relative;
-	height:inherit;
-	width:1170px;
-	margin:0 auto;	
-	padding:0 30px;	
-}
-
-/* 02.1.2 Fluid-width 							 */
-/* ----------------------------------------------*/
 #nav-bar.fluid-width #nav-wrapper{
 	position:relative;
 	height:inherit;
@@ -399,27 +192,6 @@ img.with-border{
 	padding:0px 30px 0px 40px;	
 }
 
-/* 02.1.3 Top Bar 								 */
-/* ----------------------------------------------*/
-#nav-bar.top-bar{
-	position:absolute;
-	/*background-color:transparent;*/
-	margin:auto; 
-	left:0; 
-	right:0;
-}
-
-#nav-bar.top-bar.stick-it{
-	position:fixed;
-	height:145px; 
-	width:100%;
-	background-color:#FFF;
-	z-index:1500;
-	/*-webkit-transform: translateZ(0);*/
-}
-
-/* 02.1.4 Bottom Bar 							 */
-/* ----------------------------------------------*/
 #nav-bar.bottom-bar.inside{
 	position:absolute;
 	/*background-color:transparent;*/
@@ -445,13 +217,6 @@ img.with-border{
 	
 }
 
-/* 02.1.5 Transparent & Block Color 			 */
-/* ----------------------------------------------*/
-#nav-bar.transparent{
-	/*position:relative;*/ 
-	background-color:transparent;
-}
-
 #nav-bar.block-color{
 	/*position:relative; */ 
 	background-color: #fff;
@@ -462,7 +227,7 @@ img.with-border{
 }*/
 
 /* ----------------------------------------------*/
-/* 02.2 Logo & Nav Position						 */
+/* Logo & Nav Position						     */
 /* ----------------------------------------------*/
 
 .logo-wrapper{
@@ -482,35 +247,6 @@ img.with-border{
 	vertical-align: middle;
 }
 
-/* 02.2.1 Nav Center 							 */
-/* ----------------------------------------------*/
-#nav-bar.nav-center .logo-wrapper{
-	position:absolute; 
-	margin:auto; 
-	top:0; 
-	bottom:0; 
-	left:0; 
-	right:0;
-}
-
-#nav-bar.nav-center #nav-menu{
-	text-align:center; 
-}
-
-/* 02.2.2 Nav Left 								 */
-/* ----------------------------------------------*/
-#nav-bar.nav-left .logo-wrapper{
-	float:right;
-}
-
-#nav-bar.nav-left #nav-menu{
-	float:left;
-	text-align:left;
-	width:90%;
-}
-
-/* 02.2.3 Nav Right 							 */
-/* ----------------------------------------------*/
 #nav-bar.nav-right .logo-wrapper{
 	float:left;
 }
@@ -523,11 +259,11 @@ img.with-border{
 
 
 /*===============================================*/
-/* 03. NAV MENU	 	 							 */
+/* NAV MENU  	 	 							 */
 /*===============================================*/
 
 /* ----------------------------------------------*/
-/* 03.1 Parent Menu								 */
+/* Parent Menu						     		 */
 /* ----------------------------------------------*/
 #nav-menu > li{
 	position:relative;
@@ -561,7 +297,7 @@ img.with-border{
 	color:#000;
 }
 
-/* 03.1.1 Transparent 							 */
+/* Transparent 							         */
 /* ----------------------------------------------*/
 .transparent #nav-menu > li a{
 	color:#FFF;
@@ -575,7 +311,7 @@ img.with-border{
 	color:#666666;
 }
 
-/* 03.1.2 Additional Class For Nav Center 		 */
+/* Additional Class For Nav Center 		         */
 /* ----------------------------------------------*/
 .first-child-margin{
 	margin-left:20px;
@@ -590,7 +326,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 03.2 Child Menu								 */
+/* Child Menu								     */
 /* ----------------------------------------------*/
 #nav-menu ul{
 	position:absolute;
@@ -624,7 +360,7 @@ img.with-border{
 	color:#FFF;
 }
 
-/* 03.2.1 Reset Transparent Child Menu Color	 */
+/* Reset Transparent Child Menu Color	         */
 /* ----------------------------------------------*/
 .transparent #nav-menu ul li a{
 	color:#666666;
@@ -634,7 +370,7 @@ img.with-border{
 	color:#FFF;
 }
 
-/* 03.2.2 Child-Parent Arrow 					 */
+/* Child-Parent Arrow 					         */
 /* ----------------------------------------------*/
 #nav-menu li > ul li a:after { 
 	content: '>'; 
@@ -646,7 +382,7 @@ img.with-border{
 	content: ''; 
 }
 
-/* 03.2.3 More Child 						  	 */
+/* More Child 						  	         */
 /* ----------------------------------------------*/
 #nav-menu ul ul{
 	top:0;
@@ -656,7 +392,7 @@ img.with-border{
 
 
 /* ----------------------------------------------*/
-/* 03.3 Mobile Nav								 */
+/* Mobile Nav			      					 */
 /* ----------------------------------------------*/
 #mobile-nav{
 	display:none;
@@ -671,267 +407,12 @@ img.with-border{
 	color:#FFF;
 }
 
-
-
 /*===============================================*/
-/* 04. SIDE NAV BAR		 						 */
+/* LOGO	 	 	 							     */
 /*===============================================*/
 
 /* ----------------------------------------------*/
-/* 04.1 Menuicon Bar Width & Position 			 */
-/*-----------------------------------------------*/
-#menuicon-bar{
-	position:absolute;
-	height:145px; 
-	z-index:1000;
-	background-color:transparent;
-	margin:auto;
-	top:30px;
-	left:0;
-	right:0;
-	padding:0 80px;
-}
-
-/* 04.1.1 Fixed-width */
-/* ----------------------------------------------*/
-#menuicon-bar.fixed-width{
-	width:1170px;
-}
-
-/* 04.1.2 Fluid-width */
-/* ----------------------------------------------*/
-#menuicon-bar.fluid-width{
-	width:100%;
-}
-
-/* 04.1.3 Menuicon-Left */
-/* ----------------------------------------------*/
-#menuicon-bar.menuicon-left .logo-outter-wrapper{
-	float:right;
-}
-
-#menuicon-bar.menuicon-left #menu-icon{
-	float:left;
-}
-
-/* 04.1.4 Menuicon-Right */
-/* ----------------------------------------------*/
-#menuicon-bar.menuicon-right .logo-outter-wrapper{
-	float:left;
-}
-
-#menuicon-bar.menuicon-right #menu-icon{
-	float:right;
-}
-
-/* ----------------------------------------------*/
-/* 04.2 Menu Icon					 			 */
-/*-----------------------------------------------*/
-
-/* 04.2.1 Standard Menu Icon */
-/* ----------------------------------------------*/
-#menu-icon{
-	margin-top:50px; 
-	display:block;
-}
-
-/*#menu-icon a{
-}*/
-
-#menu-icon a i{
-	color:#666666; 
-	font-size:24px;
-}
-
-#menu-icon a:hover i{
-	color: #fa7991;
-}
-
-#menu-icon.white a i{
-	color:#FFF; 
-	font-size:24px;
-}
-
-#menu-icon.white a:hover i{
-	color:#fa7991;
-}
-
-
-/* 04.2.2 Sticky Menu Icon */
-/* ----------------------------------------------*/
-#sticky-menuicon{
-	display:none;
-	position:fixed; 	
-	z-index:1000;
-	top:30px;
-	-webkit-transform: translateZ(0);
-}
-
-
-#sticky-menuicon a{
-	margin-top:12px; 
-	display:block;
-	background-color:#FFF;
-	padding:5px;
-}
-
-#sticky-menuicon a i{
-	color:#666666;
-	font-size:24px;
-}
-
-#sticky-menuicon a:hover{
-	background-color: #fa7991;
-}
-
-#sticky-menuicon a:hover i{
-	color:#FFF;
-}
-
-
-#menuicon-bar.menuicon-right #sticky-menuicon{
-	right:50px; 
-}
-
-#menuicon-bar.menuicon-left #sticky-menuicon{
-	left:50px; 
-}
-
-/* ----------------------------------------------*/
-/* 04.3 Sidebar Menu				 			 */
-/*-----------------------------------------------*/
-
-/* 04.3.1 Sidebar */
-/* ----------------------------------------------*/
-.sb-slidebar{
-	background-color:#FFF; 
-	width:320px;
-	border-left:1px solid #f4f2f2;
-	border-right:1px solid #f4f2f2;
-	z-index:2000;
-}
-
-/* 04.3.2 Sidebar Header */
-/* ----------------------------------------------*/
-#side-navbar-header{
-	position:relative;
-	width:100%; 
-	height:140px; 
-	display:block;	
-}
-
-#close-inner-wrapper{
-	position:absolute; 
-	bottom:30px; 
-	right:35px; 
-}
-
-#logo-inner-wrapper{
-	position:absolute; 
-	bottom:20px; 
-	left:35px; 
-}
-
-#close-button i{
-	color:#666666;
-	font-size:24px;
-}
-
-#close-button:hover i{
-	color:#f0394d;
-}
-
-/* 04.3.3 Parent Menu */
-/* ----------------------------------------------*/
-#side-nav-menu{
-	position:relative;
-	list-style-type:none; 
-	margin:35px;
-	margin-bottom:100px;
-	padding:0;
-	font-family: 'MaruBuri', serif;
-	font-size:14px;
-	z-index:1000;
-}
-
-#side-nav-menu > li > a:before{
-  	font-family: "fontello";
-  	font-style: normal;
-  	font-weight: normal;
-  	font-size:10px;
-	content: '\e9bd';
-	color:#f0394d;
-	text-align:center;
-	vertical-align:middle;
-	padding-right:10px;
-}
-
-#side-nav-menu > li a{
-	display:block;
-	padding:14px 8px;
-	color:#666666;
-	text-decoration:none;
-		border-bottom:solid thin #f4f2f2;
-}
-
-#side-nav-menu > li a:hover{
-	color:#f0394d;
-}
-
-/* 04.3.4 Child Menu */
-/* ----------------------------------------------*/
-#side-nav-menu ul{
-	display:none;
-	position:relative;
-	left:0;
-	list-style-type:none;
-	padding:0;
-	text-align:left;
-}
-
-#side-nav-menu ul.expand{
-	display:block
-}
-
-#side-nav-menu ul > li a{
-	padding-left:28px;
-}
-
-
-/* 04.3.5 Child-Parent Arrow Icon				 */
-/* ----------------------------------------------*/
-#side-nav-menu li a:after { 
-	content: '>'; 
-	position:absolute;
-	right:15px;
-} 
-
-#side-nav-menu li a:only-child:after { 
-	content: ''; 
-}
-
-/* 04.3.6 More Child Menu */
-/* ----------------------------------------------*/
-#side-nav-menu ul ul{
-	display:none;
-	position:relative;
-	left:0;
-	list-style-type:none;
-	padding:0;
-	text-align:left;
-}
-
-#side-nav-menu ul ul > li a{
-	border-bottom:none;
-}
-
-
-/*===============================================*/
-/* 05. LOGO	 	 	 							 */
-/*===============================================*/
-
-/* ----------------------------------------------*/
-/* 05.1	CSS Logo								 */
+/* CSS Logo								         */
 /* ----------------------------------------------*/
 .css-logo{
 	width:100%; 
@@ -962,18 +443,8 @@ img.with-border{
 	display: none;
 }
 
-/* ----------------------------------------------*/
-/* 05.2	IMG Logo								 */
-/* ----------------------------------------------*/
-.img-logo, .img-logo img{
-	width:100%;
-}
-
-
-
-
 /*===============================================*/
-/* 06. MAIN-SLIDER					 		 	 */
+/* MAIN-SLIDER  					 		 	 */
 /*===============================================*/
 #main-slider {
 	margin:0; 
@@ -982,7 +453,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.1 Main Slider Height					     */
+/* Main Slider Height   					     */
 /* ----------------------------------------------*/
 /* #main-slider.fullscreen - script.js			 */
 
@@ -992,7 +463,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.2 Main Slider Flexslider			  		 */
+/* Main Slider Flexslider   			  		 */
 /* ----------------------------------------------*/
 #main-slider.flexslider { 
 	border: none; 
@@ -1011,7 +482,7 @@ img.with-border{
 	height:inherit;
 }
 
-/* 06.2.1 Main Slider Flexslider Control Nav & Paging */
+/* Main Slider Flexslider Control Nav & Paging   */
 /* ----------------------------------------------*/
 #main-slider .flex-control-nav, .flex-control-paging{
 	 background-color:transparent; !important;
@@ -1033,7 +504,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.3 Main Slider Slide-Image		  		 	 */
+/* Main Slider Slide-Image	    	  		 	 */
 /* ----------------------------------------------*/
 
 #main-slider .slide-image {
@@ -1048,30 +519,9 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.4 Main Slider Slide-Video			  		 */
-/* ----------------------------------------------*/
-#main-slider .slide-video{
-	height: inherit; 
-	width:100%;
-	position:relative;	
-}
-
-/*#main-slider .slide-video-control{
-	height: 50px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	z-index: 4;
-	padding-right:10px;
-	text-align:right;
-}*/
-
-/* ----------------------------------------------*/
-/* 06.5 Main Slider Title					     */
+/* Main Slider Title    					     */
 /* ----------------------------------------------*/
 
-/* 06.5.1 Outter Wrapper */
-/* ----------------------------------------------*/
 .slide-title-outter-wrapper{
 	position:absolute; 
 	width:100%; 
@@ -1081,8 +531,6 @@ img.with-border{
 	overflow:hidden;
 }
 
-/* 06.5.2 Inner Wrapper */
-/* ----------------------------------------------*/
 .slide-title-inner-wrapper{
 	width:1170px; 
 	height:inherit; 
@@ -1090,8 +538,6 @@ img.with-border{
 	display: table;
 }
 
-/* 06.5.3 Title Wrapper */
-/* ----------------------------------------------*/
 .slide-title{ 
 	display: table-cell;
 	text-align:center;	
@@ -1104,7 +550,7 @@ img.with-border{
 }
 
 
-/* 06.5.4 Title Alignment */
+/* Title Alignment                               */
 /* ----------------------------------------------*/
 .slide-title.align-middle{
 	vertical-align: middle;
@@ -1120,38 +566,8 @@ img.with-border{
 	padding-bottom:100px;
 }
 
-/* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
-#save-the-date{
-	font-family: 'Dancing Script', cursive; 
-	-ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-	padding-top:100px;
-	padding-right:50px;
-	margin-bottom:20px;
-}
-
-#save{
-	font-size:75px; 
-	line-height:50px
-}
-
-#the-date{
-	font-size:62px;
-}
-
-#date{
-	font-size:47px; 
-	line-height:40px;
-}
-
-.pink-dot{
-	color: #f0394d; 
-}
-
-/* ----------------------------------------------*/
-/* 06.6 Each Slide Overlay					     */
+/* Slide Overlay		        			     */
 /* ----------------------------------------------*/
 
 .slide-overlay{
@@ -1166,7 +582,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.7 Each Slide Caption					     */
+/* Slide Caption		    		    	     */
 /* ----------------------------------------------*/
 .slide-caption{
 	position:absolute;
@@ -1182,7 +598,7 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.8 Hack Flexslider Fade for Firefox & IE11	 */
+/* Hack Flexslider Fade for Firefox & IE11	     */
 /* ----------------------------------------------*/
 .flexslider .slides.css-fade > li { 
   	-webkit-transition: opacity 1s ease; 
@@ -1191,10 +607,10 @@ img.with-border{
 }
 
 /* ----------------------------------------------*/
-/* 06.9 Loop Animation						     */
+/* Loop Animation						         */
 /* ----------------------------------------------*/
 
-/* 06.9.1 Zoom									 */
+/* Zoom							        		 */
 /* ----------------------------------------------*/
 @-webkit-keyframes zoom-in-out {
    0% {-webkit-transform: scale(1); /* Chrome, Safari, Opera */
@@ -1224,7 +640,7 @@ img.with-border{
 }
 
 
-/* 06.9.2 Left-Right							 */
+/* Left-Right        							 */
 /* ----------------------------------------------*/
 @-webkit-keyframes move-left-right {
    0% { background-position: 50% 50%; }
@@ -1250,7 +666,7 @@ img.with-border{
 	-webkit-animation-iteration-count: infinite;
 }
 
-/* 06.10 Video Audio Control					 */
+/* Video Audio Control			        		 */
 /* ----------------------------------------------*/
 #main-slider .video-audio-control{
 	height: 50px;
@@ -1279,81 +695,41 @@ img.with-border{
 	background-color:#FFF;
 }
 
-/* 07.1.1 Page Without Slider					 */
-/* ----------------------------------------------*/
+/* Page Without Slider */
 .no-slider-page #content{
 	padding:220px 0 120px 0;
 }
 
-/* 07.1.2 Page With Slider						 */
-/* ----------------------------------------------*/
+/* Page With Slider */
 .slider-title-page #content{
 	padding:120px 0;
 }
 
-/* 07.1.3 Page With Banner						 */
-/* ----------------------------------------------*/
+/* Page With Banner */
 .slider-banner-page #content{
 	padding:60px 0 120px 0;
 }
 
-/* 07.1.4 Page With Full Gallery				 */
-/* ----------------------------------------------*/
+/* Page With Full Gallery */
 .full-gallery-page #content{
 	padding:145px 0 120px 0;
 }
 
-/* 07.1.5 Page With Outside Bottom Bar 			 */
-/* ----------------------------------------------*/
+/* Page With Outside Bottom Bar */
 .outside-bottom-bar-page #content{
 	margin-top:80px;
 }
 
-/* 07.1.6 Page Sidebar				 			 */
 /* ----------------------------------------------*/
-.sidebar-wrapper{
-	width:100%; 
-	background-color:#FFF; 
-	padding:20px 30px
-}
-
-.sidebar-menu{
-	list-style-type:none;
-	padding:10px 0 0 0;	
-}
-
-.sidebar-menu li{
-	color:#6a6a6a;
-	display:block;
-	padding:10px 0;
-	border-bottom:1px solid #CCC;
-}
-
-.sidebar-menu li a{
-	color:#6a6a6a;
-}
-
-.sidebar-menu li a:hover{
-	color:#f0394d;
-}
-
-.side-tab{
-	margin-bottom:60px;
-}
-
-
-/* ----------------------------------------------*/
-/* 07.2 PAGE ELEMENT	 	 					 */
+/* PAGE ELEMENT	 	 			         		 */
 /* ----------------------------------------------*/
 
-/* 07.2.1 Page Title Wrapper					 */
-/* ----------------------------------------------*/
+/* Page Title Wrapper */
 .page-title{
 	padding-bottom:50px;
 }
 
-/* 07.2.2 Section Title Wrapper					 */
-/* ----------------------------------------------*/
+/*  Section Title Wrapper */
 .section-title{
 	margin-bottom:70px;
 }
@@ -1368,10 +744,7 @@ img.with-border{
 	width: auto;
 }
 
-
-
-/* 07.2.3 Icon Title Wrapper					 */
-/* ----------------------------------------------*/
+/* Icon Title Wrapper */
 .icon-title {
 	position:absolute; 
 	margin: auto; 
@@ -1380,7 +753,7 @@ img.with-border{
 	top:-50px;
 }
 
-/* 07.2.4 Title-Excerpt White Box				 */
+/* Title-Excerpt White Box                       */
 /* ----------------------------------------------*/
 .title-excerpt{
 	position:relative;
@@ -1398,13 +771,13 @@ img.with-border{
 	background-color:#e1dddd !important;
 }
 
-/* 07.2.5 Blurb Wrapper							 */
+/* Blurb Wrapper	     						 */
 /* ----------------------------------------------*/
 .blurb{
 	margin-top:20px;
 }
 
-/* 07.2.6  Align Middle Wrapper					 */
+/* Align Middle Wrapper			        		 */
 /* ----------------------------------------------*/
 .alignment{
 	position:absolute;
@@ -1432,9 +805,8 @@ img.with-border{
 	text-align:center;
 }
 
-/* 07.2.7 IMAGE & VIDEO DIVIDER					 */
+/* IMAGE & VIDEO DIVIDER					     */
 /* ----------------------------------------------*/
-
 
 .divider-wrapper{
 	padding:130px 0;
@@ -1496,13 +868,12 @@ img.with-border{
 	padding:0;
 }
 
-/* 07.2.8 SPACE AND LINE DIVIDER 				 */
+/* SPACE AND LINE DIVIDER 			        	 */
 /* ----------------------------------------------*/
 .space-divider{
 	display:block;
 	height:150px
 }
-
 
 hr.line-divider{
 	height:2px;
@@ -1514,7 +885,7 @@ hr.line-divider{
 	margin-top: 40px;
 }
 
-/* 07.2.9 HEART DIVIDER							 */
+/* HEART DIVIDER					    		 */
 /* ----------------------------------------------*/
 
 .heart-divider{
@@ -1540,7 +911,7 @@ hr.line-divider{
 	border-top:solid 1px #e1dddd;
 }
 
-/*.left-line{
+.left-line{
 	color:#FFF; 
 	letter-spacing:-2px; 
 	float:left; 
@@ -1556,7 +927,7 @@ hr.line-divider{
 
 .two-heart{
 	float:left;
-}*/
+}
 
 .pink-heart{
 	color:#f0394d; /* default */
@@ -1582,7 +953,7 @@ hr.line-divider{
 }
 
 
-/* 07.2.10 BUTTON					 			 */
+/* BUTTON					 		        	 */
 /* ----------------------------------------------*/
 a.de-button, span.de-button, input[type=submit]{
 	display:inline-block; 	
@@ -1642,7 +1013,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 
-/* 07.2.11 Banner Text				 			 */
+/* Banner Text	         			 			 */
 /* ----------------------------------------------*/
 .banner-text{
 	display:inline-block;
@@ -1736,7 +1107,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 
-/* 07.2.12 White Box Content Wrapper 			 */
+/* White Box Content Wrapper        			 */
 /* ----------------------------------------------*/
 .white-box-content-wrapper{
 	background-color:#FFF; 
@@ -1745,7 +1116,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 /*-----------------------------------------------*/
-/* 07.2.13 Popup Template						 */
+/* Popup Template			         			 */
 /*-----------------------------------------------*/
 #popup-template{
 	width:900px;
@@ -1773,8 +1144,6 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	width:100%;
 }
 
-
-
 #popup-template #the-content{
 	padding:35px 70px;
 	margin-bottom: 10px;
@@ -1794,7 +1163,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 /*-----------------------------------------------*/
-/* 07.2.14 Autocrop Image						 */
+/* Autocrop Image		         				 */
 /*-----------------------------------------------*/
 .autocrop-image{
  	display:block;
@@ -1805,7 +1174,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 /*===============================================*/
-/* 08. ICON										 */
+/* ICON  										 */
 /*===============================================*/
 .de-icon{
 	width: 60px;
@@ -1849,7 +1218,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 /*------------------------------------------------*/
-/* 08.1	 Size 							   	  	  */
+/* Size 						     	   	  	  */
 /*------------------------------------------------*/
 .de-icon.large-size{
 	width: 130px;
@@ -1880,10 +1249,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 /*------------------------------------------------*/
-/* 08.2 Shape									  */
+/* Shape					     				  */
 /*------------------------------------------------*/
 
-/* 08.2.1 Default								  */
+/* Default							         	  */
 /*------------------------------------------------*/
 .de-icon.default{
 	color:#6a6a6a;
@@ -1909,7 +1278,7 @@ a:hover .de-icon.default.light.reverse{
 	color:#FFF;
 }
 
-/* 08.2.2 Circle, Rounded, Square				  */
+/* Circle, Rounded, Square	         			  */
 /*------------------------------------------------*/
 .de-icon.circle{
 	border-radius: 50%;
@@ -1976,7 +1345,7 @@ a:hover .de-icon.circle.reverse, a:hover .de-icon.rounded.reverse, a:hover .de-i
 
 
 /*------------------------------------------------*/
-/* 08.3 Effect Zoom 						 	  */
+/* Effect Zoom 						         	  */
 /*------------------------------------------------*/
 .de-icon.effect1{
 	-webkit-transform: scale(1);
@@ -1995,7 +1364,7 @@ a:hover .de-icon.effect1{
 }
 
 /*------------------------------------------------*/
-/* 08.4 Effect Rotate						  	  */
+/* Effect Rotate     						  	  */
 /*------------------------------------------------*/
 .de-icon.effect2 i{
 	-webkit-transform: rotate(0deg);
@@ -2014,7 +1383,7 @@ a:hover .de-icon.effect2 i{
 }
 
 /*------------------------------------------------*/
-/* 08.5 Effect Square/Rounded To Circle 	  	  */
+/* Effect Square/Rounded To Circle 	  	          */
 /*------------------------------------------------*/
 a:hover .de-icon.effect3{
 	background-color:#f0394d;
@@ -2024,7 +1393,7 @@ a:hover .de-icon.effect3{
 
 
 /*===============================================*/
-/* 09. PHOTO ITEM								 */
+/* PHOTO ITEM					    			 */
 /*===============================================*/
 .photo-item {
 	position:relative;
@@ -2052,14 +1421,14 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 09.1 Image 									 */
+/* Image    									 */
 /* ----------------------------------------------*/
 .photo-item img {
 	width: 100%;
 }
 
 /* ----------------------------------------------*/
-/* 09.2 Layer 								 	 */
+/* Layer     								 	 */
 /* ----------------------------------------------*/
 .photo-item .layer {
 	position: absolute; 
@@ -2083,14 +1452,14 @@ a:hover .de-icon.effect3{
 }
 
 
-/* 09.2.1 Layer : Second Image   				 */
+/* Layer : Second Image   	        			 */
 /* ----------------------------------------------*/
 .photo-item .layer.second-image{
 	opacity: 0; 
 }
 
 
-/* 09.2.2 Layer : Black Overlay  				 */
+/* Layer : Black Overlay  		        		 */
 /* ----------------------------------------------*/
 .photo-item .layer.opacity-black-overlay{
 	background-color: rgba(0, 0, 0, 0.4);
@@ -2102,7 +1471,7 @@ a:hover .de-icon.effect3{
 	opacity: 0; 
 }
 
-/* 09.2.3 Layer : Photo Caption  				 */
+/* Layer : Photo Caption  		        		 */
 /* ----------------------------------------------*/
 .photo-item .layer.photo-caption{
 	opacity: 1; 
@@ -2122,7 +1491,7 @@ a:hover .de-icon.effect3{
 	border:1px solid #FFF; 
 }
 
-/* 09.2.4 Layer : Icon / Button Link		 	 */
+/* Layer : Icon / Button Link	        	 	 */
 /* ----------------------------------------------*/
 .photo-item .layer.link{
 	opacity: 1;
@@ -2145,7 +1514,7 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 09.3 on Hover Animation					 	*/
+/* on Hover Animation	       				 	*/
 /* ----------------------------------------------*/
 .photo-item img.hover-animation, .photo-item:hover img.hover-animation{
 	-webkit-transition: all 0.5s; 
@@ -2163,7 +1532,7 @@ a:hover .de-icon.effect3{
 	/*The transition will be disabled on script.js for tablet/mobile*/	
 }
 
-/* 09.3.1 on Hover Animation Duration		 	 */
+/* on Hover Animation Duration        		 	 */
 /* ----------------------------------------------*/
 .photo-item:hover .layer.hover-animation.duration1,
 .photo-item:hover img.hover-animation.duration1{
@@ -2190,7 +1559,7 @@ a:hover .de-icon.effect3{
 	transition-duration:2.5s;
 }
 
-/* 09.3.2 on Hover Animation Delay		 	 	 */
+/* on Hover Animation Delay		        	 	 */
 /* ----------------------------------------------*/
 .photo-item:hover .layer.hover-animation.delay1,
 .photo-item:hover img.hover-animation.delay1{
@@ -2218,7 +1587,7 @@ a:hover .de-icon.effect3{
 }
 
 
-/* 09.3.3 on Hover Zoom In					 	 */
+/* on Hover Zoom In		        			 	 */
 /* ----------------------------------------------*/
 .photo-item:hover img.hover-animation.image-zoom-in {
 	-webkit-transform: scale(1.1); 
@@ -2227,7 +1596,7 @@ a:hover .de-icon.effect3{
 			transform: scale(1.1);		
 }
 
-/* 09.3.4 on Hover Zoom In and Rotate	 	 	*/
+/* on Hover Zoom In and Rotate	        	 	*/
 /* ----------------------------------------------*/
 .photo-item:hover img.hover-animation.image-zoom-rotate {
 	-webkit-transform: rotate(7deg) scale(1.1);
@@ -2236,7 +1605,7 @@ a:hover .de-icon.effect3{
 			transform: rotate(7deg) scale(1.1);			
 }
 
-/* 09.3.5 on Hover Fade Out				 		 */
+/* on Hover Fade Out		     		 		 */
 /* ----------------------------------------------*/
 .photo-item:hover img.hover-animation.image-fade-out {
 	opacity:0;
@@ -2244,14 +1613,14 @@ a:hover .de-icon.effect3{
 
 
 /*===============================================*/
-/* 10. MASONRY GALLERY							 */
+/* MASONRY GALLERY							     */
 /*===============================================*/
 .masonry-col.w100{
 	width:100%;
 }
 
 /* ----------------------------------------------*/
-/* 10.1 Three Column No Gutter		 			 */
+/* Three Column No Gutter		 	     		 */
 /* ----------------------------------------------*/
 .three-col .grid-sizer{
 	width:33.33%;
@@ -2271,7 +1640,7 @@ a:hover .de-icon.effect3{
 
 
 /* ----------------------------------------------*/
-/* 10.2 Three Column With Gutter	 			 */
+/* Three Column With Gutter	        			 */
 /* ----------------------------------------------*/
 .three-col.with-gutter .grid-sizer{
 	width:31%;
@@ -2295,7 +1664,7 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 10.3 Four Column No Gutter		 			 */
+/* Four Column No Gutter	     	 			 */
 /* ----------------------------------------------*/
 .four-col .grid-sizer{
 	width:25%;
@@ -2318,7 +1687,7 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 10.4 Four Column With Gutter		 			 */
+/* Four Column With Gutter		 	    		 */
 /* ----------------------------------------------*/
 .four-col.with-gutter .grid-sizer{
 	width:23%;
@@ -2345,7 +1714,7 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 10.5 Five Column No Gutter		 			 */
+/* Five Column No Gutter	     	 			 */
 /* ----------------------------------------------*/
 .five-col .grid-sizer{
 	width:20%;
@@ -2372,7 +1741,7 @@ a:hover .de-icon.effect3{
 }
 
 /* ----------------------------------------------*/
-/* 10.6 Five Column With Gutter		 			 */
+/* Five Column With Gutter   		 			 */
 /* ----------------------------------------------*/
 .five-col.with-gutter .grid-sizer{
 	width:18%;
@@ -2402,553 +1771,12 @@ a:hover .de-icon.effect3{
 	width:72%;
 }
 
-
 /*===============================================*/
-/* 11. FORM										 */
-/*===============================================*/
-
-/*-----------------------------------------------*/
-/* 11.1 Form Group								 */
-/*-----------------------------------------------*/
-.form-group{
-	margin-bottom: 30px;
-}
-
-.form-group.submit-wrapper{
-	margin-top:30px;
-}
-
-/*-----------------------------------------------*/
-/* 11.2 Form Control							 */
-/*-----------------------------------------------*/
-.form-control {
-   	height:35px;
-	border-radius:0;
-	font-size:13px;
-}
-
-.form-control:focus {
-	border-color: #cccccc;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #cccccc;
-}
-
-/*-----------------------------------------------*/
-/* 11.3 Input Group								 */
-/*-----------------------------------------------*/
-.input-group-addon {
-	border-radius:0;
-}
-
-/*-----------------------------------------------*/
-/* 11.4 Label									 */
-/*-----------------------------------------------*/
-form label{
-	font-family: 'Noto Sans KR', sans-serif;
-	font-size:14px;
-	font-weight:normal;
-}
-
-.option-label{
-	font-family: 'Noto Sans KR', serif;	
-	color:#6a6a6a;
-	font-size:13px;
-}
-
-/*-----------------------------------------------*/
-/* 11.5 Button									 */
-/*-----------------------------------------------*/
-form .btn-primary 
-{
-    padding: 12px 18px;
-    margin: 0 15px 5px 15px; 
-    border-radius: 0;
-	font-family: 'MaruBuri', serif;	
-	color:#6a6a6a;
-	font-size:13px;
-  	background-color: #FFF;
-  	border-color: #cccccc;
-}
-
-form .btn-primary:hover,
-form .btn-primary:focus,
-form .btn-primary.focus,
-form .btn-primary:active,
-form .btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-	background-color:#f0394d; 
-	border-color:#f0394d;
-	color:#FFF;
- 	border-color: #cccccc;
-}
-
-/*-----------------------------------------------*/
-/* 11.6 Checkbox and Radio (Custom)				 */
-/*-----------------------------------------------*/
-.ajax-checkbox .btn input[type=checkbox],
-.ajax-radio .btn input[type=radio]{
-	display:none;	
-}
-
-.ajax-checkbox .btn.custom-option-icon, .ajax-checkbox .btn.no-icon,
-.ajax-radio .btn.custom-option-icon, .ajax-radio .btn.no-icon{
-	margin-left:0;
-	text-align:left;
-}
-
-.ajax-checkbox .btn.custom-option-icon:before{
-	font-family:"fontello";
-	content:"\ecd4";
-	margin-right:7px;
-}
-
-.ajax-checkbox .btn.active-icon.custom-option-icon:before{
-	font-family:"fontello";
-	content:"\ecd3";
-	margin-right:7px;
-}
-
-.ajax-radio .btn.custom-option-icon:before{
-	font-family:"fontello";
-	content:"\e914";
-	margin-right:7px;
-	font-size:16px;
-	font-weight:bold;
-}
-
-.ajax-radio .btn.active-icon.custom-option-icon:before{
-	font-family:"fontello";
-	content:"\e917";
-	margin-right:7px;
-	font-size:16px;
-	font-weight:bold;
-}
-
-/*-----------------------------------------------*/
-/* 11.7 Select Option							 */
-/*-----------------------------------------------*/
-
-select option{
-	padding:4px 0 !important;
-}
-
-option{
-	color:#747474;
-}
-
-/*-----------------------------------------------*/
-/* 11.8 Message									 */
-/*-----------------------------------------------*/
-.message{
-	margin-bottom:20px;
-	font-size:13px
-}
-
-.message .bg-ger, .message .bg-success{
-	padding:8px 14px;
-	color:#ffffff;
-}
-
-.message .bg-danger{
-	background-color:#f0394d; 
-}
-
-.message .bg-success{
-	background-color:#6a6a6a;
-}
-
-
-/*-----------------------------------------------*/
-/* 11.9 Validation								 */
-/*-----------------------------------------------*/
-form .has-error .btn-primary{
-	border-color: #f397a1;
-}
-
-.has-error .form-control {
-  border-color: #f397a1;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-}
-
-.has-error .form-control:focus {
-  border-color: #f397a1;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #f397a1;
-}
-
-
-/*===============================================*/
-/* 12. HOME PAGE								 */
+/* SECTION      								 */
 /*===============================================*/
 
 /* ----------------------------------------------*/
-/* 12.1 Couple Section & Greeting & Parents							 */
-/* ----------------------------------------------*/
-
-#greeting{
-	padding:140px 0 100px 0;
-	background-color: #f8f5f5;
-}
-
-#couple{
-	padding:140px 0 100px 0;
-	background-color: #FFF;
-}
-
-#parents{
-	padding:140px 0 100px 0;
-	background-color: #f8f5f5;
-}
-
-
-
-
-.couple-name{
-	font-family: 'Dancing Script', cursive; 
-	font-size:41px; 
-	padding-top:100px;
-	color:#FFF; 
-	line-height:41px; 
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg)
-}
-
-
-.couple-excerpt{
-	margin-top:40px;
-	margin-bottom:40px;
-}
-
-.interview-btn{
-	display: none;  /*couple interview button inactivate*/
-	font-size: 18px;
-	font-family: 'MaruBuri', serif;
-	text-decoration: none;
-	background-color: #254252;
-	/*background-color: #222222;*/
-	border: none;
-	color: yellow;
-	padding: 25px 35px;
-	width: 500px;
-	margin-top: 20px;
-	border: transparent;
-	border-radius: 70px;
-}
-
-#interview-btn-en{
-	float: left;
-	color: #eab56f;
-	font-family: 'EB Garamond', serif;
-	font-weight: 400;
-	font-size: 0.8em;
-	margin-top: 3px;
-}
-
-#interview-btn-kr{
-	float: right;
-	color: #fff;
-}
-
-/*          STORY POPUP TEMPLATE            */
-/* ----------------------------------------------*/
-#popup-template .section-title{
-	margin-bottom: 40px;
-}
-
-
-.story-qna{
-	margin: 40px 0px;
-}
-
-.qna-title{
-	font-family: 'MaruBuriSemiBold', serif;
-}
-
-.story-qna p{
-	margin-bottom: 15px;
-	color: #6a6a6a;
-	font-family: 'MaruBuri', serif;
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-.test{
-	display: none;
-}
-
-.load-more{
-	background-color:#000;
-	color:#fff !important;
-	padding:5px 10px;
-	border-radius:4px;
-	font-size:20px;
-	margin:50px 0;
-	display:inline-block;
-}
-.load-more:hover{
-	background-color:blue;
-	text-decoration:none;
-}
-
-/* ----------------------------------------------*/
-/* CALENDER IN GREETING SECTION		          	 */
-/* ----------------------------------------------*/
-.calendar{
-	box-sizing: border-box;
-}
-
-.ul{
-	list-style-type: none;
-}
-
-.weekdays {
-	margin: 0;
-	padding: 10px 0px;
-	background-color: transparent;
-}
-  
-.weekdays li {
-	display: inline-block;
-	width: 13.6%;
-	color: #666666;
-	text-align: center;
-	font-size: 20px;
-	font-family: 'MaruBuri';
-}
-  
-.days {
-	padding: 10px 0;
-	background-color: transparent;
-	margin: 0;
-  }
-  
-.days li {
-	list-style-type: none;
-	display: inline-block;
-	width: 13.6%;
-	text-align: center;
-	margin-bottom: 5px;
-	font-size:20px;
-	color: #a6a6a6;
-	padding: 10px 0;
-	font-family: 'Arita-buri-SemiBold', serif;
-}
-  
-.days li .active {
-	padding: 13px 19px;
-	border: 1px solid #F3D1D7;
-	border-radius: 50%; 
-	background-color: #F3D1D7;
-	color: #000 !important;
-}
-
-
-/* ----------------------------------------------*/
-/* 12.2 Location & Countdown Section			 */
-/* ----------------------------------------------*/
-
-#counting-down{
-	text-align:center; 
-	color:#FFF; 
-	/*font-family: 'Dancing Script', sans-serif;*/
-	-ms-transform: rotate(-10deg); 
-	-webkit-transform: rotate(-10deg); 
-	transform: rotate(-10deg);
-	padding-right:30px;
-	margin-top:0px;
-	margin-bottom:25px;
-}
-
-#counting{
-	font-size:65px; 
-	line-height:50px
-}
-
-#down{
-	font-size:55px; 
-	line-height:65px;
-}
-
-.simple-countdown{ 
-	margin:0 auto; 
-	margin-top:5px;
-	text-align: center;
-	font-family: 'Arita-buri-SemiBold', serif;
-}
-
-#dday-countdown{
-	font-size: 80px;
-	letter-spacing: 0.3em;
-}
-
-#date-countdown{
-	font-size: 45px;
-	letter-spacing: 0.25em;
-}
-
-.simple-countdown.is-countdown {
-	border: none;
-	background-color:transparent;
-	color:#FFF;
-}
-
-.simple-countdown .countdown-amount {
-	display:inline-block;
-	font-size:18px;
-	letter-spacing:2px;
-}
-.simple-countdown .countdown-period {
-    display:inline-block;
-	font-size:18px;
-}
-
-
-/* ----------------------------------------------*/
-/* 12.3 The Wedding Section			 			 */
-/* ----------------------------------------------*/
-#the-wedding{
-	padding:140px 0 140px 0;
-}
-
-#the-wedding h4{
-	font-size:17px;
-}
-
-.wedding-item{
-	margin-bottom:40px;
-}
-
-/* ----------------------------------------------*/
-/* 12.4 RSVP Section				 			 */
-/* ----------------------------------------------*/
-#rsvp{
-	padding:85px 0;
-	background-color:#f9f9f9;
-}
-
-/* ----------------------------------------------*/
-/* 12.5 Footer Section				 			 */
-/* ----------------------------------------------*/
-
-footer .image-divider.fixed-height{
-	height:550px;
-}
-
-#thank-wrapper{
-	padding-top: 50px;
-}
-
-#thank-you-kr{
-	font-family: 'MaruBuriExtraLight', serif;
-	font-size: 18px;
-	color: #fff;
-	letter-spacing: 2px;
-	margin-bottom: 10px;
-}
-
-#footer-couple-name{
-	font-family: 'MaruBuriExtraLight', serif; 
-	font-size:15px; 
-	color:#FFF; 
-	letter-spacing:3px; 
-}
-
-#link-outer{
-	text-align: center;
-	padding-top: 130px;	
-}
-
-.link-wrapper{
-	margin-bottom: 20px;
-}
-
-a.link-btn{
-	color: #FFF;
-	font-size: 15px;
-	font-family: 'MaruBuriExtraLight', serif;
-	text-decoration: none;
-	cursor: pointer;
-	padding: 6px;
-	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
-	/*background-color: rgba(0, 0, 0, 0.3);*/
-	/*border-radius: 70px;*/
-	/*padding: 25px 40px;*/
-}
-
-.copyright{
-	text-align: center;
-	font-size: 12px;
-	font-family: 'Bitter', serif;
-	font-weight: 400;
-	color:rgba(255, 255, 255, 0.4);
-	margin-top: 30px;
-}
-
-#company{
-	font-weight: 400;
-	color: rgba(255, 255, 255, 0.8);
-	letter-spacing: 1px;
-	text-decoration: none;
-}
-
-/*===============================================*/
-/* 13. OTHER PAGE								 */
-/*===============================================*/
-
-/* ----------------------------------------------*/
-/* 13.1 Location Page				 			 */
-/* ----------------------------------------------*/
-.interest-icon{
-	display:inline-block; 
-	width:20%; 
-	vertical-align:top; 
-	text-align:center
-}
-
-.interest-blurb{
-	display:inline-block; 
-	width:75%;
-	vertical-align:top;
-}
-
-/* ----------------------------------------------*/
-/* 13.2 RSVP-2 Page				 			 	 */
-/* ----------------------------------------------*/
-.rsvp-wrapper{
-	padding:35px 20px 20px 25px; 
-	border:1px solid #cccccc; 
-	border-radius:10px;
-}
-
-/* ----------------------------------------------*/
-/* 13.3 Bridesmaid Page				 			 */
-/* ----------------------------------------------*/
-.bridesmaid-wrapper{
-	margin-bottom:40px;
-}
-
-/* ----------------------------------------------*/
-/* 13.4 Groomsmen Page				 			 */
-/* ----------------------------------------------*/
-.groomsmen-wrapper{
-	margin-bottom:40px;
-}
-
-/* ----------------------------------------------*/
-/* 13.5 Blog Page				 			 	 */
-/* ----------------------------------------------*/
-.blog-wrapper{
-	margin-bottom:40px;
-}
-
-/*===============================================*/
-/* 14. ONEPAGE SECTION							 */
-/*===============================================*/
-
-/* ----------------------------------------------*/
-/* 14.1 Slider Section							 */
+/* Slider Section     		    				 */
 /* ----------------------------------------------*/
 #invited{
 	font-family: 'Dancing Script', cursive;
@@ -2993,8 +1821,40 @@ a.link-btn{
 }
 
 /* ----------------------------------------------*/
-/* 14.2 Couple Section							 */
+/* Greeting Section     						 */
 /* ----------------------------------------------*/
+
+#greeting{
+	padding:140px 0 100px 0;
+	background-color: #f8f5f5;
+}
+
+/* ----------------------------------------------*/
+/* Couple Section     						 */
+/* ----------------------------------------------*/
+
+#couple{
+	padding:140px 0 100px 0;
+	background-color: #FFF;
+}
+
+.couple-name{
+	font-family: 'Dancing Script', cursive; 
+	font-size:41px; 
+	padding-top:100px;
+	color:#FFF; 
+	line-height:41px; 
+	-ms-transform: rotate(-10deg); 
+	-webkit-transform: rotate(-10deg); 
+	transform: rotate(-10deg)
+}
+
+
+.couple-excerpt{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
 .his-her-name{
 	position:relative;
 }
@@ -3027,6 +1887,85 @@ a.link-btn{
 	font-size:26px;
 }
 
+.interview-btn{
+	display: none;  /*couple interview button inactivate*/
+	font-size: 18px;
+	font-family: 'MaruBuri', serif;
+	text-decoration: none;
+	background-color: #254252;
+	/*background-color: #222222;*/
+	border: none;
+	color: yellow;
+	padding: 25px 35px;
+	width: 500px;
+	margin-top: 20px;
+	border: transparent;
+	border-radius: 70px;
+}
+
+#interview-btn-en{
+	float: left;
+	color: #eab56f;
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	margin-top: 3px;
+}
+
+#interview-btn-kr{
+	float: right;
+	color: #fff;
+}
+
+/* STORY POPUP TEMPLATE                          */
+/* ----------------------------------------------*/
+#popup-template .section-title{
+	margin-bottom: 40px;
+}
+
+.story-qna{
+	margin: 40px 0px;
+}
+
+.qna-title{
+	font-family: 'MaruBuriSemiBold', serif;
+}
+
+.story-qna p{
+	margin-bottom: 15px;
+	color: #6a6a6a;
+	font-family: 'MaruBuri', serif;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.test{
+	display: none;
+}
+
+.load-more{
+	background-color:#000;
+	color:#fff !important;
+	padding:5px 10px;
+	border-radius:4px;
+	font-size:20px;
+	margin:50px 0;
+	display:inline-block;
+}
+.load-more:hover{
+	background-color:blue;
+	text-decoration:none;
+}
+
+/* ----------------------------------------------*/
+/* Parents Section     					    	 */
+/* ----------------------------------------------*/
+
+#parents{
+	padding:140px 0 100px 0;
+	background-color: #f8f5f5;
+}
+
 .parents-name{
 	position:relative;
 }
@@ -3046,7 +1985,7 @@ a.link-btn{
 }
 
 /* ----------------------------------------------*/
-/* 14.3 Our Story Section						 */
+/* Our Story Section			                 */
 /* ----------------------------------------------*/
 #our-story{
 	padding: 140px 0;
@@ -3136,70 +2075,7 @@ a.link-btn{
 }
 
 /* ----------------------------------------------*/
-/* 14.4 Where When Section						 */
-/* ----------------------------------------------*/
-#where-when{
-	padding: 100px 0 80px 0;
-	background-color: #f8f5f5;
-}
-
-#where-when .kakao-map{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#where-when .address-info h3{
-	font-family: 'MaruBuri', serif;
-	font-size: 18px;
-}
-
-#where-when .location-info{
-	margin-bottom: 40px;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-
-#where-when .location-info h3{
-	font-size: 20px;
-	margin-left: 10px;
-	margin-bottom: 5px;
-	font-family: 'MaruBuriSemiBold', serif;
-}
-
-#where-when .location-info h4{
-	font-size: 16px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	font-family: 'MaruBuriSemiBold', serif;
-}
-
-#where-when .location-info p{
-	margin-left: 20px;
-	font-size: 16px;
-	font-family: 'MaruBuri', serif;
-	margin-bottom: 0px; 
-}
-
-#where-when .location-detail{
-	margin: 20px 0px;
-}
-
-.and{
-	color:#f0394d;
-}
-
-.border-column{
-	border-left:1px solid #CCCCCC; 
-	border-right:1px solid #CCCCCC;
-}
-
-#map-canvas{
-	height:560px; 
-	width:100%; 
-}
-
-/* ----------------------------------------------*/
-/* 14.5 Gallery Section							 */
+/* Gallery Section		     		 			 */
 /* ----------------------------------------------*/
 #gallery-section{
 	padding: 140px 0;
@@ -3215,10 +2091,64 @@ a.link-btn{
 	width: 100%;
 }
 
+/* ----------------------------------------------*/
+/* Countdown Section (Don't Miss it)	         */
+/* ----------------------------------------------*/
 
-/* ----------------------------------------------*/
-/* 14.6 Don't Miss It / Countdown Section / Photo Divider with Text		 */
-/* ----------------------------------------------*/
+#counting-down{
+	text-align:center; 
+	color:#FFF; 
+	/*font-family: 'Dancing Script', sans-serif;*/
+	-ms-transform: rotate(-10deg); 
+	-webkit-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+	padding-right:30px;
+	margin-top:0px;
+	margin-bottom:25px;
+}
+
+#counting{
+	font-size:65px; 
+	line-height:50px
+}
+
+#down{
+	font-size:55px; 
+	line-height:65px;
+}
+
+.simple-countdown{ 
+	margin:0 auto; 
+	margin-top:5px;
+	text-align: center;
+	font-family: 'Arita-buri-SemiBold', serif;
+}
+
+#dday-countdown{
+	font-size: 80px;
+	letter-spacing: 0.3em;
+}
+
+#date-countdown{
+	font-size: 45px;
+	letter-spacing: 0.25em;
+}
+
+.simple-countdown.is-countdown {
+	border: none;
+	background-color:transparent;
+	color:#FFF;
+}
+
+.simple-countdown .countdown-amount {
+	display:inline-block;
+	font-size:18px;
+	letter-spacing:2px;
+}
+.simple-countdown .countdown-period {
+    display:inline-block;
+	font-size:18px;
+}
 
 h2#dont-miss-it-title{
 	font-size: 25px;
@@ -3271,7 +2201,7 @@ h2#dont-miss-it-title{
 }
 
 /* ----------------------------------------------*/
-/* 14.7 More Events Section						 */
+/* More Events Section					     	 */
 /* ----------------------------------------------*/
 #more-events{
 	padding: 140px 0;
@@ -3300,31 +2230,8 @@ h2#dont-miss-it-title{
 	font-size: 30px;
 }
 
-
 /* ----------------------------------------------*/
-/* 14.8 Groomsmen Section						 */
-/* ----------------------------------------------*/
-#groomsmen-section{
-	padding: 140px 0
-}
-
-.groomsmen-item{
-	margin-bottom:60px;
-}
-
-/* ----------------------------------------------*/
-/* 14.9 Bridesmaid Section						 */
-/* ----------------------------------------------*/
-#bridesmaid-section{
-	padding: 140px 0
-}
-
-.bridesmaid-item{
-	margin-bottom:60px;
-}
-
-/* ----------------------------------------------*/
-/* 14.10 Gift Section							 */
+/* Gift Section			         				 */
 /* ----------------------------------------------*/
 #gift-section{
 	padding: 140px 0 200px 0; 
@@ -3441,6 +2348,7 @@ hr.line-bride{
 	font-size: 15px;
 	width: 180px;
 	padding: 15px 0px;
+	cursor: pointer;
 }
 
 .kakaopaybtn a{
@@ -3463,7 +2371,7 @@ hr.line-bride{
 	font-size: 15px;
 	width: 180px;
 	padding: 15px 0px;
-	
+	cursor: pointer;
 }
 
 #btnouter {
@@ -3486,25 +2394,139 @@ hr.line-bride{
 }
 
 /* ----------------------------------------------*/
-/* 14.11 RSVP Section							 */
+/* Where When Section					     	 */
 /* ----------------------------------------------*/
-#rsvp-section{
-	padding: 140px 0;
-	background-color:#f9f9f9;
+#where-when{
+	padding: 100px 0 80px 0;
+	background-color: #f8f5f5;
 }
 
-#attending {
-	padding: 140px 0;
-	background-color: #fff;
+#where-when .kakao-map{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
+#where-when .address-info h3{
+	font-family: 'MaruBuri', serif;
+	font-size: 18px;
+}
+
+#where-when .location-info{
+	margin-bottom: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#where-when .location-info h3{
+	font-size: 20px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	font-family: 'MaruBuriSemiBold', serif;
+}
+
+#where-when .location-info h4{
+	font-size: 16px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-family: 'MaruBuriSemiBold', serif;
+}
+
+#where-when .location-info p{
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: 'MaruBuri', serif;
+	margin-bottom: 0px; 
+}
+
+#where-when .location-detail{
+	margin: 20px 0px;
+}
+
+.and{
+	color:#f0394d;
+}
+
+.border-column{
+	border-left:1px solid #CCCCCC; 
+	border-right:1px solid #CCCCCC;
+}
+
+#map-canvas{
+	height:560px; 
+	width:100%; 
+}
+
+/* ----------------------------------------------*/
+/* Footer Section		     		 			 */
+/* ----------------------------------------------*/
+
+footer .image-divider.fixed-height{
+	height:550px;
+}
+
+#thank-wrapper{
+	padding-top: 50px;
+}
+
+#thank-you-kr{
+	font-family: 'MaruBuriExtraLight', serif;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+#footer-couple-name{
+	font-family: 'MaruBuriExtraLight', serif; 
+	font-size:15px; 
+	color:#FFF; 
+	letter-spacing:3px; 
+}
+
+#link-outer{
+	text-align: center;
+	padding-top: 130px;	
+}
+
+.link-wrapper{
+	margin-bottom: 20px;
+}
+
+a.link-btn{
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'MaruBuriExtraLight', serif;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 6px;
+	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
+	/*background-color: rgba(0, 0, 0, 0.3);*/
+	/*border-radius: 70px;*/
+	/*padding: 25px 40px;*/
+}
+
+.copyright{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	color:rgba(255, 255, 255, 0.4);
+	margin-top: 30px;
+}
+
+#company{
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.8);
+	letter-spacing: 1px;
+	text-decoration: none;
+}
 
 /*===============================================*/
-/* 15. PLUGIN CUSTOM							 */
+/* PLUGIN CUSTOM					     		 */
 /*===============================================*/
  
 /* -------------------------------------------*/
-/* 15.1 Owl Carousel 						  */
+/* Owl Carousel 		     				  */
 /* -------------------------------------------*/
 .owl-carousel .item{
 	padding:0 15px
@@ -3529,7 +2551,7 @@ hr.line-bride{
 }
 
 /* -------------------------------------------*/
-/* 15.2 MAGNIFIC POPUP 						  */
+/* MAGNIFIC POPUP 				     		  */
 /* -------------------------------------------*/
 .mfp-bg{
 	z-index:2000;
@@ -3556,58 +2578,28 @@ button.mfp-close, button.mfp-arrow {
 /* 16. MEDIA SCREEN		 						 */
 /*===============================================*/
 
-
+/* ----------------------------------------------*/
+/* Media Screen Max-width: 1200px	     		 */
+/* ----------------------------------------------*/
 
 @media screen and (max-width:1200px){
 
-/* ----------------------------------------------*/
-/* 02.1 Width & Color (Nav Bar)			 		 */
-/* ----------------------------------------------*/
-
-/* 02.1.1 Fixed-width 							 */
-/* ----------------------------------------------*/
-#nav-bar.fixed-width #nav-wrapper{
-	width:100%;
-}
-
-
-/* ----------------------------------------------*/
-/* 04.1 Menuicon Bar Width & Position	 		 */
-/* ----------------------------------------------*/
-
-/* 04.1.1 Fixed-width 							 */
-/* ----------------------------------------------*/
-#menuicon-bar.fixed-width{
-	width:100%;
-}
-
-/* 06.5.2 Inner Wrapper 						 */
-/* ----------------------------------------------*/
+/* 06.5.2 Main Slider Inner Wrapper */
 .slide-title-inner-wrapper{
 	width:100%; 
-}
+} 
 
-/* ----------------------------------------------*/
-/* 09.1 Image 									 */
-/* ----------------------------------------------*/
+/* 09.1 Image */
 #gallery-section .photo-item img {
     height: auto;
 	width: 100%;
 }
 
+}
+
 /* ----------------------------------------------*/
-/* Attending Section						 */
+/* Media Screen Max-width: 991px	     		 */
 /* ----------------------------------------------*/
-#attending-btn-lg{
-	display: block;
-}
-
-#attending-btn-md{
-	display: none;
-}
-
-
-}
 
 @media screen and (max-width: 991px) {	
 /*===============================================*/
@@ -3839,43 +2831,9 @@ button.mfp-close, button.mfp-arrow {
 	color:#666666;	
 }
 
-
 /* ----------------------------------------------*/
-/* 04.1 Menuicon Bar Width & Position 			 */
-/*-----------------------------------------------*/
-#menuicon-bar{
-	top:0;
-	padding:0 30px
-}
-
-/* 04.1.3 Menuicon-Left */
+/* 06. Main Slider								 */
 /* ----------------------------------------------*/
-#menuicon-bar.menuicon-left .logo-outter-wrapper{
-	margin-top:40px;
-}
-
-
-/* 04.1.4 Menuicon-Right */
-/* ----------------------------------------------*/
-#menuicon-bar.menuicon-right .logo-outter-wrapper{
-	margin-top:40px;
-}
-
-/* 04.2.2 Sticky Menu Icon */
-/* ----------------------------------------------*/
-#sticky-menuicon{
-	top:10px;
-}
-
-#menuicon-bar.menuicon-right #sticky-menuicon{
-	right:30px; 
-}
-
-#menuicon-bar.menuicon-left #sticky-menuicon{
-	left:30px; 
-}
-
-
 
 /* 06.2.1 Main Slider Flexslider Control Nav & Paging */
 /* ----------------------------------------------*/
@@ -3889,38 +2847,32 @@ button.mfp-close, button.mfp-arrow {
 /* 07.1 PAGE LAYOUT						 		 */
 /* ----------------------------------------------*/
 
-/* 07.1.1 Page Without Slider					 */
-/* ----------------------------------------------*/
+/* Page Without Slider */
 .no-slider-page #content{
 	padding:140px 0 80px 0;
 }
 
-/* 07.1.2 Page With Slider					 	 */
-/* ----------------------------------------------*/
+/* Page With Slider*/
 .slider-title-page #content{
 	padding:80px 0;
 }
 
-/* 07.1.3 Page With Banner						 */
-/* ----------------------------------------------*/
+/* Page With Banner*/
 .slider-banner-page #content{
 	padding:60px 0 80px 0;
 }
 
-/* 07.1.4 Page With Full Gallery				 */
-/* ----------------------------------------------*/
+/* Page With Full Gallery*/
 .full-gallery-page #content{
 	padding:100px 0 80px 0;
 }
 
-/* 07.1.5 Page With Outside Bottom Bar 			 */
-/* ----------------------------------------------*/
+/* Page With Outside Bottom Bar*/
 .outside-bottom-bar-page #content{
 	margin-top:60px;
 }
 
-/* 07.2.7 Image & Video Divider					 */
-/* ----------------------------------------------*/
+/* Image & Video Divider*/
 .divider-wrapper{
 	padding:70px 0;
 }
@@ -3945,26 +2897,19 @@ button.mfp-close, button.mfp-arrow {
 	width: 100%;
 }
 
-/*===============================================*/
-/* 13 LOCATION PAGE								 */
-/*===============================================*/
-.interest-icon{
-	width:10%;
-}
-
-.interest-blurb{
-	width:88%;
-}
+/* ==============================================*/
+/* 14. Section							         */
+/* ==============================================*/
 
 /* ----------------------------------------------*/
-/* 14.2 Couple Section							 */
+/* Couple Section							     */
 /* ----------------------------------------------*/
 .his-her-name .heart-wrapper{
 	display:none;
 }
 
 /* ----------------------------------------------*/
-/* 14.3 Our Story Section						 */
+/* Our Story Section						     */
 /* ----------------------------------------------*/
 .story-row.row {
     display: block;
@@ -4011,7 +2956,7 @@ button.mfp-close, button.mfp-arrow {
 
 
 /* ----------------------------------------------*/
-/* 14.4 Where When Section						 */
+/* Where When Section						     */
 /* ----------------------------------------------*/
 .border-column{
 	border:none;
@@ -4029,19 +2974,7 @@ button.mfp-close, button.mfp-arrow {
 	font-size: 17px;
 }
 
-/* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: block;
 }
-
-#attending-btn-md{
-	display: none;
-}
-
-}
-
 
 
 @media screen and (max-width: 991px) and (orientation : landscape) {
@@ -4051,52 +2984,14 @@ button.mfp-close, button.mfp-arrow {
 #nav-menu{	
 	height:230px !important;
 }
-/* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: block;
-}
-
-#attending-btn-md{
-	display: none;
-}
 
 }
+
+/* ----------------------------------------------*/
+/* Media Screen Max-width: 767px	     		 */
+/* ----------------------------------------------*/
 
 @media screen and (max-width: 767px) and (orientation : landscape) {
-/* 06.5.6 Save The Date Title */
-/* ----------------------------------------------*/	
-#save-the-date{
-	padding-right:40px;
-	padding-top:0;
-	margin-bottom:0px;	
-}
-
-#save{
-	font-size:50px; 
-	line-height:30px
-}
-
-#the-date{
-	font-size:40px;
-}
-
-#date{
-	font-size:30px; 
-	line-height:20px;
-}
-
-/* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: block;
-}
-
-#attending-btn-md{
-	display: none;
-}
 
 }
 
@@ -4124,14 +3019,6 @@ button.mfp-close, button.mfp-arrow {
 #flower-icon{
 	width: 40px !important; 
 	height: auto;
-}
-    
-/*===============================================*/
-/* 11. FORM										 */
-/*===============================================*/
-form .btn{
-	width:100%;
-	white-space:normal;
 }
 
 /*===============================================*/
@@ -4201,7 +3088,6 @@ p{
 	font-size: 17px;
 }
 
-
 /* ----------------------------------------------*/
 /* Image & Space							 */
 /* ----------------------------------------------*/	
@@ -4219,10 +3105,17 @@ p{
 }
 
 /* ----------------------------------------------*/
-/* Couple & Parents Section							 */
+/* Greeting Section			                     */
 /* ----------------------------------------------*/						
 #greeting{
 	padding: 100px 0 60px 0;
+}
+
+/* ----------------------------------------------*/
+/* Couple Section			                     */
+/* ----------------------------------------------*/
+#couple {
+	padding: 80px 30px 60px 30px;
 }
 
 .his-her-name h2{
@@ -4235,10 +3128,6 @@ p{
 	font-size: 14px;
 }
 
-#couple {
-	padding: 80px 30px 60px 30px;
-}
-
 .interview-btn{
 	font-size: 16px;
 	width: 400px;
@@ -4246,56 +3135,6 @@ p{
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
-
-#gallery-section {
-	padding: 80px 0px 100px 0px;
-}
-
-#parents {
-	padding: 80px 30px 60px 30px;
-}
-.parents-name h4{
-	font-size:16px; 
-	margin-top:40px; 
-	margin-bottom:20px;
-}
-
-.parents-name h3{
-	font-size:20px; 
-	margin-top:15px; 
-	margin-bottom:50px;
-}
-
-.parents-name .pink-heart{
-	font-size: 15px;
-}
-
-
-/* ----------------------------------------------*/
-/* POPUP TEMPLATE						 */
-/* ----------------------------------------------*/	
-
-#popup-template #the-content{
-	padding:35px 30px;
-}
-
-#popup-template .story-qna h3{
-	font-size: 20px;
-}
-
-.story-qna{
-	margin: 30px 0px;
-}
-
-/* ----------------------------------------------*/
-/* CALENDAR							 */
-/* ----------------------------------------------*/	
-
-
-.weekdays li, .days li {
-	width: 13.1%;
-}
-
 
 /* ----------------------------------------------*/
 /* Our Story Section							 */
@@ -4322,7 +3161,52 @@ p{
 }
 
 /* ----------------------------------------------*/
-/* 14.6 Don't Miss It / Countdown Section / Photo Divider with Text		 */
+/* POPUP TEMPLATE						 */
+/* ----------------------------------------------*/	
+
+#popup-template #the-content{
+	padding:35px 30px;
+}
+
+#popup-template .story-qna h3{
+	font-size: 20px;
+}
+
+.story-qna{
+	margin: 30px 0px;
+}
+
+/* ----------------------------------------------*/
+/* Parents Section			                     */
+/* ----------------------------------------------*/
+#parents {
+	padding: 80px 30px 60px 30px;
+}
+.parents-name h4{
+	font-size:16px; 
+	margin-top:40px; 
+	margin-bottom:20px;
+}
+
+.parents-name h3{
+	font-size:20px; 
+	margin-top:15px; 
+	margin-bottom:50px;
+}
+
+.parents-name .pink-heart{
+	font-size: 15px;
+}
+
+/* ----------------------------------------------*/
+/* Gallery Section			                     */
+/* ----------------------------------------------*/
+#gallery-section {
+	padding: 80px 0px 100px 0px;
+}
+
+/* ----------------------------------------------*/
+/* Countdown Section (Don't Miss It)             */
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
 	font-size:20px; 
@@ -4339,25 +3223,16 @@ h2#dont-miss-it-title{
 	letter-spacing: 0.2em;
 }
 
-
+/* ----------------------------------------------*/
+/* Photo Divider with Text		                 */
+/* ----------------------------------------------*/
 #divider-title-line{
 	font-size: 65px;
 	line-height: 65px;
 }
 
 /* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: block;
-}
-
-#attending-btn-md{
-	display: none;
-}
-
-/* ----------------------------------------------*/
-/* Location Section						 */
+/* Where When Section					     	 */
 /* ----------------------------------------------*/
 #where-when{
 	padding: 100px 30px 100px 30px;
@@ -4382,9 +3257,9 @@ h2#dont-miss-it-title{
 	font-size: 15px;
 }
 
-
-
-
+/* ----------------------------------------------*/
+/* Media Screen Max-width: 480px	     		 */
+/* ----------------------------------------------*/
 
 @media screen and (max-width: 480px)  {	
 /*===============================================*/
@@ -4451,7 +3326,7 @@ p{
 	font-size: 14px;
 }
 
-/* ICON & DIVIDER*/
+/* ICON & DIVIDER                                */
 /* ----------------------------------------------*/	
 .pink-heart{
 	font-size: 14px;
@@ -4469,7 +3344,7 @@ hr.line-divider{
 	margin: 30px 0px;
 }
 
-/* 06.5.6 Save The Date Title */	
+/* 0.6 Main Slider                               */	
 /* ----------------------------------------------*/	
 
 #invited{
@@ -4488,30 +3363,6 @@ hr.line-divider{
 #banner-name{
 	font-size: 15px;
 }
-
-#save-the-date{
-	padding-right:40px;
-	margin-bottom:0px;
-	padding-top:0;
-	
-}
-
-#save{
-	font-size:60px; 
-	line-height:35px
-}
-
-#the-date{
-	font-size:50px;
-}
-
-#date{
-	font-size:40px; 
-	line-height:25px;
-}
-
-/* 07.2.2 Section Title Wrapper					 */
-/* ----------------------------------------------*/
 	
 /* 07.2.4 Title-Excerpt White Box				 */
 /* ----------------------------------------------*/
@@ -4599,34 +3450,19 @@ hr.line-divider{
 	margin-bottom: 70px;
 }
 
-/*===============================================*/
-/* 10 MASONRY GALLERY							 */
-/*===============================================*/
-.masonry-col, .grid-sizer{
-	width:100% !important;
-	margin-bottom:5% !important;
-}
-
 /* ----------------------------------------------*/
-/* 12.1 Couple & Parents Section							 */
+/* Greeting Section			      				 */
 /* ----------------------------------------------*/	
-
 #greeting{
 	padding:60px 0px 60px 0px;
 }
 
+/* ----------------------------------------------*/
+/* Couple Section			      				 */
+/* ----------------------------------------------*/	
+
 #couple{
 	padding:60px 5px 40px 5px;
-}
-
-#parents{
-	padding:60px 5px 60px 5px;
-}
-
-.interview-btn{
-	font-size: 14px;
-	width: 280px;
-	padding: 20px 20px;
 }
 
 .couple-name{
@@ -4647,6 +3483,19 @@ hr.line-divider{
 
 .his-her-name .last-name{
 	font-size: 13px;
+}
+
+.interview-btn{
+	font-size: 14px;
+	width: 280px;
+	padding: 20px 20px;
+}
+
+/* ----------------------------------------------*/
+/* Parents Section			      				 */
+/* ----------------------------------------------*/	
+#parents{
+	padding:60px 5px 60px 5px;
 }
 
 .parents-name h4{
@@ -4676,19 +3525,7 @@ hr.line-divider{
 }
 
 /* ----------------------------------------------*/
-/* CALENDAR							 */
-/* ----------------------------------------------*/	
-
-.weekdays li, .days li {
-	width: 12.5%;
-}
-.days li .active {
-	padding: 2px;
-}
-
-
-/* ----------------------------------------------*/
-/* 12.2 Location & Countdown Section			 */
+/* Countdown Section		                 	 */
 /* ----------------------------------------------*/	
 #location-countdown .image-divider.auto-height {
 	padding:60px 0;
@@ -4712,40 +3549,38 @@ hr.line-divider{
 }
 
 
-
-/* ----------------------------------------------*/
-/* 12.3 The Wedding Section			 			 */
-/* ----------------------------------------------*/	
-#the-wedding{
-	padding:60px 0 40px 0;
-}
-	
-/* ----------------------------------------------*/
-/* 12.4 RSVP Section				 			 */
-/* ----------------------------------------------*/
-#rsvp{
-	padding:60px 0;
-	
+.circle-countdown .countdown-amount {
+	width:45px;
+	height:45px;
+	padding-top:9px;
+	font-size:20px;
 }
 
-
-/*===============================================*/
-/* 13 LOCATION PAGE								 */
-/*===============================================*/
-.interest-icon{
-	width:20%;
+.circle-countdown .countdown-period {
+	padding:10px;
+	display:block;
+	text-align:center;
+	font-size:12px;
+	text-transform:uppercase;    
 }
 
-.interest-blurb{
-	width:78%;
+h2#dont-miss-it-title{
+	font-size:18px; 
+	margin-bottom:35px; 
+	letter-spacing: 0.22em;
 }
 
-/*===============================================*/
-/* 14. ONEPAGE SECTION							 */
-/*===============================================*/
+#dday-countdown{
+	font-size: 55px;
+}
+
+#date-countdown{
+	font-size: 30px;
+}
+
 
 /* ----------------------------------------------*/
-/* 14.3 Our Story Section						 */
+/* Our Story Section				     		 */
 /* ----------------------------------------------*/
 #our-story{
 	padding: 60px 5px 40px 5px;
@@ -4764,7 +3599,7 @@ hr.line-divider{
 }
 
 /* ----------------------------------------------*/
-/* 14.4 Where When Section						 */
+/* Where When Section		     				 */
 /* ----------------------------------------------*/
 #where-when{
 	padding: 60px 5px 80px 5px;
@@ -4802,46 +3637,16 @@ hr.line-divider{
 	margin-left: 10px;
 }
 
-
 /* ----------------------------------------------*/
-/* 14.5 Gallery Section							 */
+/* Gallery Section				     			 */
 /* ----------------------------------------------*/
 #gallery-section{
 	padding: 60px 5px 60px 5px;
 }
 
 /* ----------------------------------------------*/
-/* 14.6 Don't Miss It / Countdown Section / Photo Divider 		 */
+/* Divider 		                                 */
 /* ----------------------------------------------*/
-
-.circle-countdown .countdown-amount {
-	width:45px;
-	height:45px;
-	padding-top:9px;
-	font-size:20px;
-}
-
-.circle-countdown .countdown-period {
-	padding:10px;
-	display:block;
-	text-align:center;
-	font-size:12px;
-	text-transform:uppercase;    
-}
-
-h2#dont-miss-it-title{
-	font-size:18px; 
-	margin-bottom:35px; 
-	letter-spacing: 0.22em;
-}
-
-#dday-countdown{
-	font-size: 55px;
-}
-
-#date-countdown{
-	font-size: 30px;
-}
 
 #divider-title-line{
 	font-size: 50px;
@@ -4849,55 +3654,19 @@ h2#dont-miss-it-title{
 }
 
 /* ----------------------------------------------*/
-/* 14.7 More Events Section						 */
+/* More Events Section    						 */
 /* ----------------------------------------------*/
 #more-events{
 	padding: 60px 0px 60px 0px;
 }
 
-
 /* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: none;
-}
-
-#attending-btn-md{
-	display: block;
-}
-
-/* ----------------------------------------------*/
-/* 14.8 Groomsmen Section						 */
-/* ----------------------------------------------*/
-#groomsmen-section{
-	padding: 80px 0
-}
-
-/* ----------------------------------------------*/
-/* 14.9 Bridesmaid Section						 */
-/* ----------------------------------------------*/
-#bridesmaid-section{
-	padding: 80px 0
-}
-
-/* ----------------------------------------------*/
-/* 14.10 Gift Section							 */
+/* Gift Section	        						 */
 /* ----------------------------------------------*/
 #gift-section{
 	padding: 60px 5px 100px 5px;
 }
 
-/* ----------------------------------------------*/
-/* 14.11 RSVP Section							 */
-/* ----------------------------------------------*/
-#rsvp-section{
-	padding: 80px 0px;
-}
-
-/* ----------------------------------------------*/
-/* Gift Section							 */
-/* ----------------------------------------------*/
 .accordion1{
 	font-size: 16px;
 	padding-bottom: 10px;
@@ -4949,7 +3718,7 @@ h2#dont-miss-it-title{
 }
 
 /* ----------------------------------------------*/
-/* 12.5 Footer Section				 			 */
+/* Footer Section		     		 			 */
 /* ----------------------------------------------*/
 #thank-you-kr{
 	font-size: 15px;
@@ -4971,6 +3740,9 @@ a.link-btn{
 
 }
 
+/* ----------------------------------------------*/
+/* Media Screen Max-width: 320px	     		 */
+/* ----------------------------------------------*/
 
 @media screen and (max-width: 320px) {
 /*===============================================*/
@@ -5055,7 +3827,9 @@ h2#dont-miss-it-title{
 	line-height: 40px;
 }
 
-/* LOGO */
+/* ----------------------------------------------*/
+/* NAV BAR & LOGO		     					 */
+/* ----------------------------------------------*/
 
 #banner-date{
 	font-size: 10px;
@@ -5078,32 +3852,8 @@ h2#dont-miss-it-title{
 	font-size: 18px;
 }
 
-
-/* 06.5.6 Save The Date Title */
 /* ----------------------------------------------*/
-#save-the-date{
-	padding-right:40px;
-	padding-top:0;
-	margin-bottom:0px;
-	
-}
-
-#save{
-	font-size:50px; 
-	line-height:30px
-}
-
-#the-date{
-	font-size:40px;
-}
-
-#date{
-	font-size:30px; 
-	line-height:20px;
-}
-
-/* ----------------------------------------------*/
-/* 12.1 Couple Section							 */
+/* Couple Section		     					 */
 /* ----------------------------------------------*/
 
 .interview-btn{
@@ -5134,6 +3884,9 @@ h2#dont-miss-it-title{
 	font-size: 11px;
 }
 
+/* ----------------------------------------------*/
+/* Parents Section		     					 */
+/* ----------------------------------------------*/
 .parents-name h4{
 	font-size:11px; 
 	margin-top:20px; 
@@ -5151,16 +3904,7 @@ h2#dont-miss-it-title{
 }
 
 /* ----------------------------------------------*/
-/* CALENDAR						 */
-/* ----------------------------------------------*/
-
-
-.weekdays li, .days li {
-	width: 12.2%;
-}
-
-
-/* 14.3 Our Story Section & POPUP TEMPLATE						 */
+/* Our Story Section		     				 */
 /* ----------------------------------------------*/
 
 .qna-title{
@@ -5171,6 +3915,9 @@ h2#dont-miss-it-title{
     font-size: 16px;
 }
 
+/* ----------------------------------------------*/
+/* POPUP TEMPLATE		     					 */
+/* ----------------------------------------------*/
 #popup-template .story-qna h3{
 	font-size: 15px;
 }
@@ -5185,8 +3932,10 @@ h2#dont-miss-it-title{
 	padding-right: 5px;
 }*/
 
-/* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
+/* Where When Section		     			     */
+/* ----------------------------------------------*/
+
 #where-when .address-info h3{
 	font-size: 13px;
 }
@@ -5208,9 +3957,8 @@ h2#dont-miss-it-title{
 	margin-left: 5px;
 }
 
-
 /* ----------------------------------------------*/
-/* 12.5 Footer Section				 			 */
+/* Footer Section	     			 			 */
 /* ----------------------------------------------*/
 footer .image-divider.fixed-height{
 	 height:400px;
@@ -5251,18 +3999,7 @@ a.link-btn{
 }
 
 /* ----------------------------------------------*/
-/* Attending Section						 */
-/* ----------------------------------------------*/
-#attending-btn-lg{
-	display: none;
-}
-
-#attending-btn-md{
-	display: block;
-}
-
-/* ----------------------------------------------*/
-/* Gift Section							 */
+/* Gift Section						        	 */
 /* ----------------------------------------------*/
 .accordion1{
 	font-size: 14px;
