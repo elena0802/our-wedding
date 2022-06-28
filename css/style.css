@@ -671,12 +671,17 @@ img.with-border{
 #main-slider .video-audio-control{
 	height: 50px;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0;
 	z-index: 4;
 	padding-right:10px;
 	text-align:right;
-	color:#FFF;
+	color:#000;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: fixed;
 }
 
 #main-slider .video-audio-control.mobile{
